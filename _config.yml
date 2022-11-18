@@ -1,7 +1,7 @@
 title: DACE-DL
 description: Official DACE-DL project page
 
-url: https://long-haul.netlify.app
+url: https://DACE-DL.github.io
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
@@ -22,13 +22,13 @@ navigation:
     url: /contact
 
 social:
-  github: brianmaierjr
-  twitter: brianmaierjr
-  facebook: brianmaierjr
-  email: brimaidesigns@gmail.com
-  linkedin: brianmaierjr
+  github: 
+  twitter: 
+  facebook:
+  email: raphael.conde-salazar@inrae.fr
+  linkedin: 
 
-google_analytics: "UA-58263416-1"
+google_analytics: 
 
 disqus:
-    shortname: brianmaierjr
+    shortname: raphaël
