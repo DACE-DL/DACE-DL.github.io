@@ -1,5 +1,5 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+title: DACE-DL
+description: Official DACE-DL project page
 
 url: https://long-haul.netlify.app
 paginate_path: "blog/page:num/"
