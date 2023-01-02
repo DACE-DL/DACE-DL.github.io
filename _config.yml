@@ -20,12 +20,14 @@ navigation:
     url: /about
   - title: Contact
     url: /contact
+  - title: Download
+    url: /download
 
 social:
   github: 
   twitter: 
   facebook:
-  email: raphael.conde-salazar@inrae.fr
+  email: 
   linkedin: 
 
 google_analytics: 
