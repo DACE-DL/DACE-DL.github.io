@@ -18,6 +18,8 @@ navigation:
     url: /index.html
   - title: About
     url: /about
+  - title: Partnership
+    url: /partnership
   - title: Contact
     url: /contact
   - title: Download
