@@ -1,7 +1,7 @@
 title: DACE-DL
-description: Official DACE-DL project page
+description: DACE-DL ANR project homepage
 
-url: https://DACE-DL.github.io
+url: https://dace-dl.github.io
 paginate_path: "news/page:num/"
 permalink: news/:title/
 
@@ -18,20 +18,20 @@ navigation:
     url: /index.html
   - title: About
     url: /about
-  - title: News
-    url: /news/index.html
-  - title: Partnership
-    url: /partnership
+#  - title: News
+#   url: /news/index.html
+  - title: Partners
+    url: /partners
   - title: Contact
     url: /contact
-  - title: Download
-    url: /download
+  - title: Results
+    url: /resutls
 
 social:
-  github: 
+  github: https://github.com/DACE-DL
   twitter: 
   facebook:
-  email: 
+  email: konstantin.Todorov@lirmm.fr
   linkedin: 
 
 google_analytics: 
