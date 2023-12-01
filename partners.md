@@ -1,10 +1,10 @@
 ---
 layout: default
-title: About DACE-DL Project
+title: Partners
 ---
 
 <div class="post">
-	<h1 class="pageTitle">Partnership</h1>
+	<h1 class="pageTitle">Partners</h1>
 
 	<p><span class="dropcap">D</span>ACE-DL gathers a team of five established and young researchers with multicultural backgrounds (2 out of 3 principal investigators (PI) are women and 4 are HDRs) from the following three multidisciplinary institutes. 
 	<ul>
