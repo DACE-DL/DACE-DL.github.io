@@ -1,0 +1,1005 @@
+<https://w3id.org/LPT/ontology/LPTsOntology> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/LPT/ontology/LPTsOntology> <http://purl.org/dc/elements/1.1/creator> "Raphaël CONDE SALAZAR" .
+<https://w3id.org/LPT/ontology/LPTsOntology> <http://purl.org/dc/elements/1.1/description> "Ontology of LPT classification" .
+<https://w3id.org/LPT/ontology/LPTsOntology> <http://www.w3.org/2000/01/rdf-schema#label> "Ontology of LPTs" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/bibliographicCitation
+<http://purl.org/dc/terms/bibliographicCitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/isPartOf
+<http://purl.org/dc/terms/isPartOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/language
+<http://purl.org/dc/terms/language> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/modified
+<http://purl.org/dc/terms/modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/suject
+<http://purl.org/dc/terms/suject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#isDefinedBy
+<http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#label
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#altLabel
+<http://www.w3.org/2004/02/skos/core#altLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#prefLabel
+<http://www.w3.org/2004/02/skos/core#prefLabel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/dcat#/accessURL
+<http://www.w3.org/ns/dcat#/accessURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/dcat#/byteSize
+<http://www.w3.org/ns/dcat#/byteSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/dcat#/contactPoint
+<http://www.w3.org/ns/dcat#/contactPoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/dcat#/downloadURL
+<http://www.w3.org/ns/dcat#/downloadURL> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/dcat#/keyword
+<http://www.w3.org/ns/dcat#/keyword> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/dcat#/mediaType
+<http://www.w3.org/ns/dcat#/mediaType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/ns/dcat#/distribution
+<http://www.w3.org/ns/dcat#/distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://www.w3.org/ns/prov#wasDerivedFrom
+<http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# http://www.w3.org/ns/prov#wasInfluencedBy
+<http://www.w3.org/ns/prov#wasInfluencedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://w3id.org/LPT/ontology/hasSource
+<https://w3id.org/LPT/ontology/hasSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://w3id.org/LPT/ontology/hasTarget
+<https://w3id.org/LPT/ontology/hasTarget> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# https://w3id.org/LPT/ontology/occursIn
+<https://w3id.org/LPT/ontology/occursIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2004/02/skos/core#notation
+<http://www.w3.org/2004/02/skos/core#notation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2004/02/skos/core#Concept
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/dcat#/Dataset
+<http://www.w3.org/ns/dcat#/Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/dcat#/Dataset> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/LPT/ontology/Heterogeneity> .
+<http://www.w3.org/ns/dcat#/Dataset> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/LPT/ontology/HeterogeneitySource> .
+<http://www.w3.org/ns/dcat#/Dataset> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/LPT/ontology/LPT> .
+<http://www.w3.org/ns/dcat#/Dataset> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/LPT/ontology/PairOfDatasets> .
+# 
+# http://www.w3.org/ns/dcat#/Distribution
+<http://www.w3.org/ns/dcat#/Distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/prov#Entity
+<http://www.w3.org/ns/prov#Entity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/LPT/ontology/Heterogeneity
+<https://w3id.org/LPT/ontology/Heterogeneity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/Heterogeneity> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/prov#Entity> .
+<https://w3id.org/LPT/ontology/Heterogeneity> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/LPT/ontology/HeterogeneitySource> .
+<https://w3id.org/LPT/ontology/Heterogeneity> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/Heterogeneity> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/LPT/ontology/PairOfDatasets> .
+<https://w3id.org/LPT/ontology/Heterogeneity> <http://www.w3.org/2000/01/rdf-schema#comment> "Heterogeneity is the set of all heterogeneities described in the data linking corpus."@en .
+<https://w3id.org/LPT/ontology/Heterogeneity> <http://www.w3.org/2000/01/rdf-schema#comment> "HeterogeneitySource is the set of all bibliographic references dealing with a heterogeneity described in the data linking corpus."@en .
+# 
+# https://w3id.org/LPT/ontology/HeterogeneitySource
+<https://w3id.org/LPT/ontology/HeterogeneitySource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/HeterogeneitySource> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/prov#Entity> .
+<https://w3id.org/LPT/ontology/HeterogeneitySource> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/HeterogeneitySource> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/LPT/ontology/PairOfDatasets> .
+# 
+# https://w3id.org/LPT/ontology/LPT
+<https://w3id.org/LPT/ontology/LPT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://w3id.org/LPT/ontology/LPT> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/prov#Entity> .
+<https://w3id.org/LPT/ontology/LPT> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/LPT/ontology/PairOfDatasets> .
+<https://w3id.org/LPT/ontology/LPT> <http://www.w3.org/2000/01/rdf-schema#comment> "LPT is the set of all types of problems that can be encountered when binding semantic data."@en .
+# 
+# https://w3id.org/LPT/ontology/LPT1
+<https://w3id.org/LPT/ontology/LPT1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#hasValue> "1" .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT> .
+# 
+# https://w3id.org/LPT/ontology/LPT1_1
+<https://w3id.org/LPT/ontology/LPT1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT1_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#hasValue> "1_1" .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT1_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT1> .
+# 
+# https://w3id.org/LPT/ontology/LPT1_1_1
+<https://w3id.org/LPT/ontology/LPT1_1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT1_1_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#hasValue> "1_1_1" .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT1_1_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT1_1> .
+# 
+# https://w3id.org/LPT/ontology/LPT1_1_1_1
+<https://w3id.org/LPT/ontology/LPT1_1_1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT1_1_1_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#hasValue> "1_1_1_1" .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT1_1_1_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT1_1_1> .
+# 
+# https://w3id.org/LPT/ontology/LPT1_1_1_2
+<https://w3id.org/LPT/ontology/LPT1_1_1_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT1_1_1_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#hasValue> "1_1_1_2" .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT1_1_1_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT1_1_1> .
+# 
+# https://w3id.org/LPT/ontology/LPT1_1_2
+<https://w3id.org/LPT/ontology/LPT1_1_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT1_1_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#hasValue> "1_1_2" .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT1_1_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT1_1> .
+# 
+# https://w3id.org/LPT/ontology/LPT1_1_2_1
+<https://w3id.org/LPT/ontology/LPT1_1_2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT1_1_2_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#hasValue> "1_1_2_1" .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT1_1_2_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT1_1_2> .
+# 
+# https://w3id.org/LPT/ontology/LPT1_1_2_2
+<https://w3id.org/LPT/ontology/LPT1_1_2_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT1_1_2_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#hasValue> "1_1_2_2" .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT1_1_2_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT1_1_2> .
+# 
+# https://w3id.org/LPT/ontology/LPT1_1_2_3
+<https://w3id.org/LPT/ontology/LPT1_1_2_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT1_1_2_3> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#hasValue> "1_1_2_3" .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT1_1_2_3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT1_1_2> .
+# 
+# https://w3id.org/LPT/ontology/LPT1_1_2_4
+<https://w3id.org/LPT/ontology/LPT1_1_2_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT1_1_2_4> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#hasValue> "1_1_2_4" .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT1_1_2_4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT1_1_2> .
+# 
+# https://w3id.org/LPT/ontology/LPT1_1_2_5
+<https://w3id.org/LPT/ontology/LPT1_1_2_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT1_1_2_5> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#hasValue> "1_1_2_5" .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT1_1_2_5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT1_1_2> .
+# 
+# https://w3id.org/LPT/ontology/LPT1_1_3
+<https://w3id.org/LPT/ontology/LPT1_1_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT1_1_3> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#hasValue> "1_1_3" .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT1_1_3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT1_1> .
+# 
+# https://w3id.org/LPT/ontology/LPT1_2
+<https://w3id.org/LPT/ontology/LPT1_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT1_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid14 .
+_:genid14 <http://www.w3.org/2002/07/owl#hasValue> "1_2" .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT1_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT1> .
+# 
+# https://w3id.org/LPT/ontology/LPT1_2_1
+<https://w3id.org/LPT/ontology/LPT1_2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT1_2_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#hasValue> "1_2_1" .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT1_2_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT1_2> .
+# 
+# https://w3id.org/LPT/ontology/LPT1_2_2
+<https://w3id.org/LPT/ontology/LPT1_2_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT1_2_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid16 .
+_:genid16 <http://www.w3.org/2002/07/owl#hasValue> "1_2_2" .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT1_2_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT1_2> .
+# 
+# https://w3id.org/LPT/ontology/LPT2
+<https://w3id.org/LPT/ontology/LPT2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#hasValue> "2" .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT> .
+# 
+# https://w3id.org/LPT/ontology/LPT2_1
+<https://w3id.org/LPT/ontology/LPT2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT2_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid18 .
+_:genid18 <http://www.w3.org/2002/07/owl#hasValue> "2_1" .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT2_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT2> .
+# 
+# https://w3id.org/LPT/ontology/LPT2_1_1
+<https://w3id.org/LPT/ontology/LPT2_1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT2_1_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid19 .
+_:genid19 <http://www.w3.org/2002/07/owl#hasValue> "2_1_1" .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT2_1_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT2_1> .
+# 
+# https://w3id.org/LPT/ontology/LPT2_1_2
+<https://w3id.org/LPT/ontology/LPT2_1_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT2_1_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid20 .
+_:genid20 <http://www.w3.org/2002/07/owl#hasValue> "2_1_2" .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT2_1_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT2_1> .
+# 
+# https://w3id.org/LPT/ontology/LPT2_1_3
+<https://w3id.org/LPT/ontology/LPT2_1_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT2_1_3> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid21 .
+_:genid21 <http://www.w3.org/2002/07/owl#hasValue> "2_1_3" .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT2_1_3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT2_1> .
+# 
+# https://w3id.org/LPT/ontology/LPT2_1_4
+<https://w3id.org/LPT/ontology/LPT2_1_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT2_1_4> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid22 .
+_:genid22 <http://www.w3.org/2002/07/owl#hasValue> "2_1_4" .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT2_1_4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT2_1> .
+# 
+# https://w3id.org/LPT/ontology/LPT2_1_5
+<https://w3id.org/LPT/ontology/LPT2_1_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT2_1_5> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid23 .
+_:genid23 <http://www.w3.org/2002/07/owl#hasValue> "2_1_5" .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT2_1_5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT2_1> .
+# 
+# https://w3id.org/LPT/ontology/LPT2_2
+<https://w3id.org/LPT/ontology/LPT2_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT2_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid24 .
+_:genid24 <http://www.w3.org/2002/07/owl#hasValue> "2_2" .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT2_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT2> .
+# 
+# https://w3id.org/LPT/ontology/LPT2_2_1
+<https://w3id.org/LPT/ontology/LPT2_2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT2_2_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid25 .
+_:genid25 <http://www.w3.org/2002/07/owl#hasValue> "2_2_1" .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT2_2_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT2_2> .
+# 
+# https://w3id.org/LPT/ontology/LPT2_2_2
+<https://w3id.org/LPT/ontology/LPT2_2_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT2_2_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid26 .
+_:genid26 <http://www.w3.org/2002/07/owl#hasValue> "2_2_2" .
+_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT2_2_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT2_2> .
+# 
+# https://w3id.org/LPT/ontology/LPT2_2_3
+<https://w3id.org/LPT/ontology/LPT2_2_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT2_2_3> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid27 .
+_:genid27 <http://www.w3.org/2002/07/owl#hasValue> "2_2_3" .
+_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT2_2_3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT2_2> .
+# 
+# https://w3id.org/LPT/ontology/LPT2_2_4
+<https://w3id.org/LPT/ontology/LPT2_2_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT2_2_4> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid28 .
+_:genid28 <http://www.w3.org/2002/07/owl#hasValue> "2_2_4" .
+_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT2_2_4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT2_2> .
+# 
+# https://w3id.org/LPT/ontology/LPT2_3
+<https://w3id.org/LPT/ontology/LPT2_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT2_3> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid29 .
+_:genid29 <http://www.w3.org/2002/07/owl#hasValue> "2_3" .
+_:genid29 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT2_3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT2> .
+# 
+# https://w3id.org/LPT/ontology/LPT3
+<https://w3id.org/LPT/ontology/LPT3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT3> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid30 .
+_:genid30 <http://www.w3.org/2002/07/owl#hasValue> "3" .
+_:genid30 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT> .
+# 
+# https://w3id.org/LPT/ontology/LPT3_1
+<https://w3id.org/LPT/ontology/LPT3_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT3_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid31 .
+_:genid31 <http://www.w3.org/2002/07/owl#hasValue> "3_1" .
+_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT3_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT3> .
+# 
+# https://w3id.org/LPT/ontology/LPT3_1_1
+<https://w3id.org/LPT/ontology/LPT3_1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT3_1_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid32 .
+_:genid32 <http://www.w3.org/2002/07/owl#hasValue> "3_1_1" .
+_:genid32 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT3_1_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT3_1> .
+# 
+# https://w3id.org/LPT/ontology/LPT3_1_2
+<https://w3id.org/LPT/ontology/LPT3_1_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT3_1_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid33 .
+_:genid33 <http://www.w3.org/2002/07/owl#hasValue> "3_1_2" .
+_:genid33 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT3_1_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT3_1> .
+# 
+# https://w3id.org/LPT/ontology/LPT3_1_3
+<https://w3id.org/LPT/ontology/LPT3_1_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT3_1_3> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid34 .
+_:genid34 <http://www.w3.org/2002/07/owl#hasValue> "3_1_3" .
+_:genid34 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT3_1_3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT3_1> .
+# 
+# https://w3id.org/LPT/ontology/LPT3_1_4
+<https://w3id.org/LPT/ontology/LPT3_1_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT3_1_4> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid35 .
+_:genid35 <http://www.w3.org/2002/07/owl#hasValue> "3_1_4" .
+_:genid35 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT3_1_4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT3_1> .
+# 
+# https://w3id.org/LPT/ontology/LPT3_1_5
+<https://w3id.org/LPT/ontology/LPT3_1_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT3_1_5> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid36 .
+_:genid36 <http://www.w3.org/2002/07/owl#hasValue> "3_1_5" .
+_:genid36 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT3_1_5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT3_1> .
+# 
+# https://w3id.org/LPT/ontology/LPT3_2
+<https://w3id.org/LPT/ontology/LPT3_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT3_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid37 .
+_:genid37 <http://www.w3.org/2002/07/owl#hasValue> "3_2" .
+_:genid37 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT3_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT3> .
+# 
+# https://w3id.org/LPT/ontology/LPT4
+<https://w3id.org/LPT/ontology/LPT4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT4> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid38 .
+_:genid38 <http://www.w3.org/2002/07/owl#hasValue> "4" .
+_:genid38 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT> .
+# 
+# https://w3id.org/LPT/ontology/LPT4_1
+<https://w3id.org/LPT/ontology/LPT4_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT4_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid39 .
+_:genid39 <http://www.w3.org/2002/07/owl#hasValue> "4_1" .
+_:genid39 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT4_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT4> .
+# 
+# https://w3id.org/LPT/ontology/LPT4_2
+<https://w3id.org/LPT/ontology/LPT4_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT4_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid40 .
+_:genid40 <http://www.w3.org/2002/07/owl#hasValue> "4_2" .
+_:genid40 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT4_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT4> .
+# 
+# https://w3id.org/LPT/ontology/LPT5
+<https://w3id.org/LPT/ontology/LPT5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT5> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid41 .
+_:genid41 <http://www.w3.org/2002/07/owl#hasValue> "5" .
+_:genid41 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT> .
+# 
+# https://w3id.org/LPT/ontology/LPT5_1
+<https://w3id.org/LPT/ontology/LPT5_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT5_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid42 .
+_:genid42 <http://www.w3.org/2002/07/owl#hasValue> "5_1" .
+_:genid42 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT5_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT5> .
+# 
+# https://w3id.org/LPT/ontology/LPT5_2
+<https://w3id.org/LPT/ontology/LPT5_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT5_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid43 .
+_:genid43 <http://www.w3.org/2002/07/owl#hasValue> "5_2" .
+_:genid43 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT5_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT5> .
+# 
+# https://w3id.org/LPT/ontology/LPT5_3
+<https://w3id.org/LPT/ontology/LPT5_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT5_3> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid44 .
+_:genid44 <http://www.w3.org/2002/07/owl#hasValue> "5_3" .
+_:genid44 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT5_3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT5> .
+# 
+# https://w3id.org/LPT/ontology/LPT5_4
+<https://w3id.org/LPT/ontology/LPT5_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT5_4> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid45 .
+_:genid45 <http://www.w3.org/2002/07/owl#hasValue> "5_4" .
+_:genid45 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT5_4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT5> .
+# 
+# https://w3id.org/LPT/ontology/LPT5_4_1
+<https://w3id.org/LPT/ontology/LPT5_4_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT5_4_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid46 .
+_:genid46 <http://www.w3.org/2002/07/owl#hasValue> "5_4_1" .
+_:genid46 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT5_4_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT5_4> .
+# 
+# https://w3id.org/LPT/ontology/LPT5_4_2
+<https://w3id.org/LPT/ontology/LPT5_4_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT5_4_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid47 .
+_:genid47 <http://www.w3.org/2002/07/owl#hasValue> "5_4_2" .
+_:genid47 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT5_4_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT5_4> .
+# 
+# https://w3id.org/LPT/ontology/LPT5_4_3
+<https://w3id.org/LPT/ontology/LPT5_4_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT5_4_3> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid48 .
+_:genid48 <http://www.w3.org/2002/07/owl#hasValue> "5_4_3" .
+_:genid48 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT5_4_3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT5_4> .
+# 
+# https://w3id.org/LPT/ontology/LPT5_4_4
+<https://w3id.org/LPT/ontology/LPT5_4_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT5_4_4> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid49 .
+_:genid49 <http://www.w3.org/2002/07/owl#hasValue> "5_4_4" .
+_:genid49 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT5_4_4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT5_4> .
+# 
+# https://w3id.org/LPT/ontology/LPT5_4_5
+<https://w3id.org/LPT/ontology/LPT5_4_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT5_4_5> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid50 .
+_:genid50 <http://www.w3.org/2002/07/owl#hasValue> "5_4_5" .
+_:genid50 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT5_4_5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT5_4> .
+# 
+# https://w3id.org/LPT/ontology/LPT5_4_6
+<https://w3id.org/LPT/ontology/LPT5_4_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT5_4_6> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid51 .
+_:genid51 <http://www.w3.org/2002/07/owl#hasValue> "5_4_6" .
+_:genid51 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT5_4_6> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT5_4> .
+# 
+# https://w3id.org/LPT/ontology/LPT5_5
+<https://w3id.org/LPT/ontology/LPT5_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT5_5> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid52 .
+_:genid52 <http://www.w3.org/2002/07/owl#hasValue> "5_5" .
+_:genid52 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT5_5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT5> .
+# 
+# https://w3id.org/LPT/ontology/LPT5_6
+<https://w3id.org/LPT/ontology/LPT5_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT5_6> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid53 .
+_:genid53 <http://www.w3.org/2002/07/owl#hasValue> "5_6" .
+_:genid53 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT5_6> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT5> .
+# 
+# https://w3id.org/LPT/ontology/LPT5_7
+<https://w3id.org/LPT/ontology/LPT5_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT5_7> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid54 .
+_:genid54 <http://www.w3.org/2002/07/owl#hasValue> "5_7" .
+_:genid54 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT5_7> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT5> .
+# 
+# https://w3id.org/LPT/ontology/LPT5_8
+<https://w3id.org/LPT/ontology/LPT5_8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/LPT5_8> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid55 .
+_:genid55 <http://www.w3.org/2002/07/owl#hasValue> "5_8" .
+_:genid55 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/LPT/ontology/LPT5_8> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/LPT/ontology/LPT5> .
+# 
+# https://w3id.org/LPT/ontology/PairOfDatasets
+<https://w3id.org/LPT/ontology/PairOfDatasets> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/LPT/ontology/PairOfDatasets> <http://www.w3.org/2000/01/rdf-schema#comment> "PairOfDatasets is the set of all pairs of RDF datasets intended to be semantically linked."@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/LPT/ontology/LPT1
+<https://w3id.org/LPT/ontology/LPT1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT1> <http://www.w3.org/2004/02/skos/core#notation> "1" .
+# 
+# https://w3id.org/LPT/ontology/LPT1_1
+<https://w3id.org/LPT/ontology/LPT1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT1_1> <http://www.w3.org/2004/02/skos/core#notation> "1_1" .
+# 
+# https://w3id.org/LPT/ontology/LPT1_1_1
+<https://w3id.org/LPT/ontology/LPT1_1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT1_1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT1_1_1> <http://www.w3.org/2004/02/skos/core#notation> "1_1_1" .
+# 
+# https://w3id.org/LPT/ontology/LPT1_1_1_1
+<https://w3id.org/LPT/ontology/LPT1_1_1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT1_1_1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT1_1_1_1> <http://www.w3.org/2004/02/skos/core#notation> "1_1_1_1" .
+# 
+# https://w3id.org/LPT/ontology/LPT1_1_1_2
+<https://w3id.org/LPT/ontology/LPT1_1_1_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT1_1_1_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT1_1_1_2> <http://www.w3.org/2004/02/skos/core#notation> "1_1_1_2" .
+# 
+# https://w3id.org/LPT/ontology/LPT1_1_2
+<https://w3id.org/LPT/ontology/LPT1_1_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT1_1_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT1_1_2> <http://www.w3.org/2004/02/skos/core#notation> "1_1_2" .
+# 
+# https://w3id.org/LPT/ontology/LPT1_1_2_1
+<https://w3id.org/LPT/ontology/LPT1_1_2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT1_1_2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT1_1_2_1> <http://www.w3.org/2004/02/skos/core#notation> "1_1_2_1" .
+# 
+# https://w3id.org/LPT/ontology/LPT1_1_2_2
+<https://w3id.org/LPT/ontology/LPT1_1_2_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT1_1_2_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT1_1_2_2> <http://www.w3.org/2004/02/skos/core#notation> "1_1_2_2" .
+# 
+# https://w3id.org/LPT/ontology/LPT1_1_2_3
+<https://w3id.org/LPT/ontology/LPT1_1_2_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT1_1_2_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT1_1_2_3> <http://www.w3.org/2004/02/skos/core#notation> "1_1_2_3" .
+# 
+# https://w3id.org/LPT/ontology/LPT1_1_2_4
+<https://w3id.org/LPT/ontology/LPT1_1_2_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT1_1_2_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT1_1_2_4> <http://www.w3.org/2004/02/skos/core#notation> "1_1_2_4" .
+# 
+# https://w3id.org/LPT/ontology/LPT1_1_2_5
+<https://w3id.org/LPT/ontology/LPT1_1_2_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT1_1_2_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT1_1_2_5> <http://www.w3.org/2004/02/skos/core#notation> "1_1_2_5" .
+# 
+# https://w3id.org/LPT/ontology/LPT1_1_3
+<https://w3id.org/LPT/ontology/LPT1_1_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT1_1_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT1_1_3> <http://www.w3.org/2004/02/skos/core#notation> "1_1_3" .
+# 
+# https://w3id.org/LPT/ontology/LPT1_2
+<https://w3id.org/LPT/ontology/LPT1_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT1_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT1_2> <http://www.w3.org/2004/02/skos/core#notation> "1_2" .
+# 
+# https://w3id.org/LPT/ontology/LPT1_2_1
+<https://w3id.org/LPT/ontology/LPT1_2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT1_2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT1_2_1> <http://www.w3.org/2004/02/skos/core#notation> "1_2_1" .
+# 
+# https://w3id.org/LPT/ontology/LPT1_2_2
+<https://w3id.org/LPT/ontology/LPT1_2_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT1_2_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT1_2_2> <http://www.w3.org/2004/02/skos/core#notation> "1_2_2" .
+# 
+# https://w3id.org/LPT/ontology/LPT2
+<https://w3id.org/LPT/ontology/LPT2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT2> <http://www.w3.org/2004/02/skos/core#notation> "2" .
+# 
+# https://w3id.org/LPT/ontology/LPT2_1
+<https://w3id.org/LPT/ontology/LPT2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT2_1> <http://www.w3.org/2004/02/skos/core#notation> "2_1" .
+# 
+# https://w3id.org/LPT/ontology/LPT2_1_1
+<https://w3id.org/LPT/ontology/LPT2_1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT2_1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT2_1_1> <http://www.w3.org/2004/02/skos/core#notation> "2_1_1" .
+# 
+# https://w3id.org/LPT/ontology/LPT2_1_2
+<https://w3id.org/LPT/ontology/LPT2_1_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT2_1_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT2_1_2> <http://www.w3.org/2004/02/skos/core#notation> "2_1_2" .
+# 
+# https://w3id.org/LPT/ontology/LPT2_1_3
+<https://w3id.org/LPT/ontology/LPT2_1_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT2_1_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT2_1_3> <http://www.w3.org/2004/02/skos/core#notation> "2_1_3" .
+# 
+# https://w3id.org/LPT/ontology/LPT2_1_4
+<https://w3id.org/LPT/ontology/LPT2_1_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT2_1_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT2_1_4> <http://www.w3.org/2004/02/skos/core#notation> "2_1_4" .
+# 
+# https://w3id.org/LPT/ontology/LPT2_1_5
+<https://w3id.org/LPT/ontology/LPT2_1_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT2_1_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT2_1_5> <http://www.w3.org/2004/02/skos/core#notation> "2_1_5" .
+# 
+# https://w3id.org/LPT/ontology/LPT2_2
+<https://w3id.org/LPT/ontology/LPT2_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT2_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT2_2> <http://www.w3.org/2004/02/skos/core#notation> "2_2" .
+# 
+# https://w3id.org/LPT/ontology/LPT2_2_1
+<https://w3id.org/LPT/ontology/LPT2_2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT2_2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT2_2_1> <http://www.w3.org/2004/02/skos/core#notation> "2_2_1" .
+# 
+# https://w3id.org/LPT/ontology/LPT2_2_2
+<https://w3id.org/LPT/ontology/LPT2_2_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT2_2_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT2_2_2> <http://www.w3.org/2004/02/skos/core#notation> "2_2_2" .
+# 
+# https://w3id.org/LPT/ontology/LPT2_2_3
+<https://w3id.org/LPT/ontology/LPT2_2_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT2_2_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT2_2_3> <http://www.w3.org/2004/02/skos/core#notation> "2_2_3" .
+# 
+# https://w3id.org/LPT/ontology/LPT2_2_4
+<https://w3id.org/LPT/ontology/LPT2_2_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT2_2_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT2_2_4> <http://www.w3.org/2004/02/skos/core#notation> "2_2_4" .
+# 
+# https://w3id.org/LPT/ontology/LPT2_3
+<https://w3id.org/LPT/ontology/LPT2_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT2_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT2_3> <http://www.w3.org/2004/02/skos/core#notation> "2_3" .
+# 
+# https://w3id.org/LPT/ontology/LPT3
+<https://w3id.org/LPT/ontology/LPT3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT3> <http://www.w3.org/2004/02/skos/core#notation> "3" .
+# 
+# https://w3id.org/LPT/ontology/LPT3_1
+<https://w3id.org/LPT/ontology/LPT3_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT3_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT3_1> <http://www.w3.org/2004/02/skos/core#notation> "3_1" .
+# 
+# https://w3id.org/LPT/ontology/LPT3_1_1
+<https://w3id.org/LPT/ontology/LPT3_1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT3_1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT3_1_1> <http://www.w3.org/2004/02/skos/core#notation> "3_1_1" .
+# 
+# https://w3id.org/LPT/ontology/LPT3_1_2
+<https://w3id.org/LPT/ontology/LPT3_1_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT3_1_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT3_1_2> <http://www.w3.org/2004/02/skos/core#notation> "3_1_2" .
+# 
+# https://w3id.org/LPT/ontology/LPT3_1_3
+<https://w3id.org/LPT/ontology/LPT3_1_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT3_1_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT3_1_3> <http://www.w3.org/2004/02/skos/core#notation> "3_1_3" .
+# 
+# https://w3id.org/LPT/ontology/LPT3_1_4
+<https://w3id.org/LPT/ontology/LPT3_1_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT3_1_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT3_1_4> <http://www.w3.org/2004/02/skos/core#notation> "3_1_4" .
+# 
+# https://w3id.org/LPT/ontology/LPT3_1_5
+<https://w3id.org/LPT/ontology/LPT3_1_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT3_1_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT3_1_5> <http://www.w3.org/2004/02/skos/core#notation> "3_1_5" .
+# 
+# https://w3id.org/LPT/ontology/LPT3_2
+<https://w3id.org/LPT/ontology/LPT3_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT3_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT3_2> <http://www.w3.org/2004/02/skos/core#notation> "3_2" .
+# 
+# https://w3id.org/LPT/ontology/LPT4
+<https://w3id.org/LPT/ontology/LPT4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT4> <http://www.w3.org/2004/02/skos/core#notation> "4" .
+# 
+# https://w3id.org/LPT/ontology/LPT4_1
+<https://w3id.org/LPT/ontology/LPT4_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT4_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT4_1> <http://www.w3.org/2004/02/skos/core#notation> "4_1" .
+# 
+# https://w3id.org/LPT/ontology/LPT4_2
+<https://w3id.org/LPT/ontology/LPT4_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT4_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT4_2> <http://www.w3.org/2004/02/skos/core#notation> "4_2" .
+# 
+# https://w3id.org/LPT/ontology/LPT5
+<https://w3id.org/LPT/ontology/LPT5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT5> <http://www.w3.org/2004/02/skos/core#notation> "5" .
+# 
+# https://w3id.org/LPT/ontology/LPT5_1
+<https://w3id.org/LPT/ontology/LPT5_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT5_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT5_1> <http://www.w3.org/2004/02/skos/core#notation> "5_1" .
+# 
+# https://w3id.org/LPT/ontology/LPT5_2
+<https://w3id.org/LPT/ontology/LPT5_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT5_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT5_2> <http://www.w3.org/2004/02/skos/core#notation> "5_2" .
+# 
+# https://w3id.org/LPT/ontology/LPT5_3
+<https://w3id.org/LPT/ontology/LPT5_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT5_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT5_3> <http://www.w3.org/2004/02/skos/core#notation> "5_3" .
+# 
+# https://w3id.org/LPT/ontology/LPT5_4
+<https://w3id.org/LPT/ontology/LPT5_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT5_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT5_4> <http://www.w3.org/2004/02/skos/core#notation> "5_4" .
+# 
+# https://w3id.org/LPT/ontology/LPT5_4_1
+<https://w3id.org/LPT/ontology/LPT5_4_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT5_4_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT5_4_1> <http://www.w3.org/2004/02/skos/core#notation> "5_4_1" .
+# 
+# https://w3id.org/LPT/ontology/LPT5_4_2
+<https://w3id.org/LPT/ontology/LPT5_4_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT5_4_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT5_4_2> <http://www.w3.org/2004/02/skos/core#notation> "5_4_2" .
+# 
+# https://w3id.org/LPT/ontology/LPT5_4_3
+<https://w3id.org/LPT/ontology/LPT5_4_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT5_4_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT5_4_3> <http://www.w3.org/2004/02/skos/core#notation> "5_4_3" .
+# 
+# https://w3id.org/LPT/ontology/LPT5_4_4
+<https://w3id.org/LPT/ontology/LPT5_4_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT5_4_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT5_4_4> <http://www.w3.org/2004/02/skos/core#notation> "5_4_4" .
+# 
+# https://w3id.org/LPT/ontology/LPT5_4_5
+<https://w3id.org/LPT/ontology/LPT5_4_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT5_4_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT5_4_5> <http://www.w3.org/2004/02/skos/core#notation> "5_4_5" .
+# 
+# https://w3id.org/LPT/ontology/LPT5_4_6
+<https://w3id.org/LPT/ontology/LPT5_4_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT5_4_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT5_4_6> <http://www.w3.org/2004/02/skos/core#notation> "5_4_6" .
+# 
+# https://w3id.org/LPT/ontology/LPT5_5
+<https://w3id.org/LPT/ontology/LPT5_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT5_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT5_5> <http://www.w3.org/2004/02/skos/core#notation> "5_5" .
+# 
+# https://w3id.org/LPT/ontology/LPT5_6
+<https://w3id.org/LPT/ontology/LPT5_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT5_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT5_6> <http://www.w3.org/2004/02/skos/core#notation> "5_6" .
+# 
+# https://w3id.org/LPT/ontology/LPT5_7
+<https://w3id.org/LPT/ontology/LPT5_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT5_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT5_7> <http://www.w3.org/2004/02/skos/core#notation> "5_7" .
+# 
+# https://w3id.org/LPT/ontology/LPT5_8
+<https://w3id.org/LPT/ontology/LPT5_8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/LPT/ontology/LPT5_8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/LPT/ontology/LPT> .
+<https://w3id.org/LPT/ontology/LPT5_8> <http://www.w3.org/2004/02/skos/core#notation> "5_8" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<https://w3id.org/LPT/ontology/LPT1> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1" .
+# 
+<https://w3id.org/LPT/ontology/LPT1_1> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1_1" .
+# 
+<https://w3id.org/LPT/ontology/LPT1_1_1> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1_1_1" .
+# 
+<https://w3id.org/LPT/ontology/LPT1_1_1_1> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1_1_1_1" .
+# 
+<https://w3id.org/LPT/ontology/LPT1_1_1_2> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1_1_1_2" .
+# 
+<https://w3id.org/LPT/ontology/LPT1_1_2> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1_1_2" .
+# 
+<https://w3id.org/LPT/ontology/LPT1_1_2_1> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1_1_2_1" .
+# 
+<https://w3id.org/LPT/ontology/LPT1_1_2_2> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1_1_2_2" .
+# 
+<https://w3id.org/LPT/ontology/LPT1_1_2_3> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1_1_2_3" .
+# 
+<https://w3id.org/LPT/ontology/LPT1_1_2_4> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1_1_2_4" .
+# 
+<https://w3id.org/LPT/ontology/LPT1_1_2_5> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1_1_2_5" .
+# 
+<https://w3id.org/LPT/ontology/LPT1_1_3> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1_1_3" .
+# 
+<https://w3id.org/LPT/ontology/LPT1_2> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1_2" .
+# 
+<https://w3id.org/LPT/ontology/LPT1_2_1> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1_2_1" .
+# 
+<https://w3id.org/LPT/ontology/LPT1_2_2> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1_2_2" .
+# 
+<https://w3id.org/LPT/ontology/LPT2> <http://www.w3.org/2000/01/rdf-schema#label> "LPT2" .
+# 
+<https://w3id.org/LPT/ontology/LPT2_1> <http://www.w3.org/2000/01/rdf-schema#label> "LPT2_1" .
+# 
+<https://w3id.org/LPT/ontology/LPT2_1_1> <http://www.w3.org/2000/01/rdf-schema#label> "LPT2_1_1" .
+# 
+<https://w3id.org/LPT/ontology/LPT2_1_2> <http://www.w3.org/2000/01/rdf-schema#label> "LPT2_1_2" .
+# 
+<https://w3id.org/LPT/ontology/LPT2_1_3> <http://www.w3.org/2000/01/rdf-schema#label> "LPT2_1_3" .
+# 
+<https://w3id.org/LPT/ontology/LPT2_1_4> <http://www.w3.org/2000/01/rdf-schema#label> "LPT2_1_4" .
+# 
+<https://w3id.org/LPT/ontology/LPT2_1_5> <http://www.w3.org/2000/01/rdf-schema#label> "LPT2_1_5" .
+# 
+<https://w3id.org/LPT/ontology/LPT2_2> <http://www.w3.org/2000/01/rdf-schema#label> "LPT2_2" .
+# 
+<https://w3id.org/LPT/ontology/LPT2_2_1> <http://www.w3.org/2000/01/rdf-schema#label> "LPT2_2_1" .
+# 
+<https://w3id.org/LPT/ontology/LPT2_2_2> <http://www.w3.org/2000/01/rdf-schema#label> "LPT2_2_2" .
+# 
+<https://w3id.org/LPT/ontology/LPT2_2_3> <http://www.w3.org/2000/01/rdf-schema#label> "LPT2_2_3" .
+# 
+<https://w3id.org/LPT/ontology/LPT2_2_4> <http://www.w3.org/2000/01/rdf-schema#label> "LPT2_2_4" .
+# 
+<https://w3id.org/LPT/ontology/LPT2_3> <http://www.w3.org/2000/01/rdf-schema#label> "LPT2_3" .
+# 
+<https://w3id.org/LPT/ontology/LPT3> <http://www.w3.org/2000/01/rdf-schema#label> "LPT3" .
+# 
+<https://w3id.org/LPT/ontology/LPT3_1> <http://www.w3.org/2000/01/rdf-schema#label> "LPT3_1" .
+# 
+<https://w3id.org/LPT/ontology/LPT3_1_1> <http://www.w3.org/2000/01/rdf-schema#label> "LPT3_1_1" .
+# 
+<https://w3id.org/LPT/ontology/LPT3_1_2> <http://www.w3.org/2000/01/rdf-schema#label> "LPT3_1_2" .
+# 
+<https://w3id.org/LPT/ontology/LPT3_1_3> <http://www.w3.org/2000/01/rdf-schema#label> "LPT3_1_3" .
+# 
+<https://w3id.org/LPT/ontology/LPT3_1_4> <http://www.w3.org/2000/01/rdf-schema#label> "LPT3_1_4" .
+# 
+<https://w3id.org/LPT/ontology/LPT3_1_5> <http://www.w3.org/2000/01/rdf-schema#label> "LPT3_1_5" .
+# 
+<https://w3id.org/LPT/ontology/LPT3_2> <http://www.w3.org/2000/01/rdf-schema#label> "LPT3_2" .
+# 
+<https://w3id.org/LPT/ontology/LPT4> <http://www.w3.org/2000/01/rdf-schema#label> "LPT4" .
+# 
+<https://w3id.org/LPT/ontology/LPT4_1> <http://www.w3.org/2000/01/rdf-schema#label> "LPT4_1" .
+# 
+<https://w3id.org/LPT/ontology/LPT4_2> <http://www.w3.org/2000/01/rdf-schema#label> "LPT4_2" .
+# 
+<https://w3id.org/LPT/ontology/LPT5> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5" .
+# 
+<https://w3id.org/LPT/ontology/LPT5_1> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5_1" .
+# 
+<https://w3id.org/LPT/ontology/LPT5_2> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5_2" .
+# 
+<https://w3id.org/LPT/ontology/LPT5_3> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5_3" .
+# 
+<https://w3id.org/LPT/ontology/LPT5_4> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5_4" .
+# 
+<https://w3id.org/LPT/ontology/LPT5_4_1> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5_4_1" .
+# 
+<https://w3id.org/LPT/ontology/LPT5_4_2> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5_4_2" .
+# 
+<https://w3id.org/LPT/ontology/LPT5_4_3> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5_4_3" .
+# 
+<https://w3id.org/LPT/ontology/LPT5_4_4> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5_4_4" .
+# 
+<https://w3id.org/LPT/ontology/LPT5_4_5> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5_4_5" .
+# 
+<https://w3id.org/LPT/ontology/LPT5_4_6> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5_4_6" .
+# 
+<https://w3id.org/LPT/ontology/LPT5_5> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5_5" .
+# 
+<https://w3id.org/LPT/ontology/LPT5_6> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5_6" .
+# 
+<https://w3id.org/LPT/ontology/LPT5_7> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5_7" .
+# 
+<https://w3id.org/LPT/ontology/LPT5_8> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5_8" .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

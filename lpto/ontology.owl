@@ -1,0 +1,1903 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/LPT/ontology/LPTsOntology#"
+     xml:base="https://w3id.org/LPT/ontology/LPTsOntology"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:dcat="http://www.w3.org/ns/dcat#/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://w3id.org/LPT/ontology/LPTsOntology">
+        <dc:creator>Raphaël CONDE SALAZAR</dc:creator>
+        <dc:description>Ontology of LPT classification</dc:description>
+        <rdfs:label>Ontology of LPTs</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/bibliographicCitation -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/bibliographicCitation"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/isPartOf -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/isPartOf"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/language -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/language"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/publisher -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/suject -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/suject"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#isDefinedBy -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#/accessURL -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#/accessURL"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#/byteSize -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#/byteSize"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#/contactPoint -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#/contactPoint"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#/downloadURL -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#/downloadURL"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#/keyword -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#/keyword"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#/mediaType -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#/mediaType"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#/distribution -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/dcat#/distribution"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasDerivedFrom -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasDerivedFrom"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#wasInfluencedBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasInfluencedBy"/>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/hasSource -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/LPT/ontology/hasSource"/>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/hasTarget -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/LPT/ontology/hasTarget"/>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/occursIn -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/LPT/ontology/occursIn"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#notation -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#/Dataset -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/dcat#/Dataset">
+        <owl:disjointWith rdf:resource="https://w3id.org/LPT/ontology/Heterogeneity"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/LPT/ontology/HeterogeneitySource"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/LPT/ontology/PairOfDatasets"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/ns/dcat#/Distribution -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/dcat#/Distribution"/>
+    
+
+
+    <!-- http://www.w3.org/ns/prov#Entity -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/prov#Entity"/>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/Heterogeneity -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/Heterogeneity">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/LPT/ontology/HeterogeneitySource"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/LPT/ontology/PairOfDatasets"/>
+        <rdfs:comment xml:lang="en">Heterogeneity is the set of all heterogeneities described in the data linking corpus.</rdfs:comment>
+        <rdfs:comment xml:lang="en">HeterogeneitySource is the set of all bibliographic references dealing with a heterogeneity described in the data linking corpus.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/HeterogeneitySource -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/HeterogeneitySource">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/LPT/ontology/PairOfDatasets"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/prov#Entity"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <owl:disjointWith rdf:resource="https://w3id.org/LPT/ontology/PairOfDatasets"/>
+        <rdfs:comment xml:lang="en">LPT is the set of all types of problems that can be encountered when binding semantic data.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT1">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>1</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1_1 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT1_1">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>1_1</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT1"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1_1_1 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT1_1_1">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>1_1_1</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT1_1"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1_1_1_1 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT1_1_1_1">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>1_1_1_1</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT1_1_1"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1_1_1_2 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT1_1_1_2">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>1_1_1_2</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT1_1_1"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1_1_2 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT1_1_2">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>1_1_2</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT1_1"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1_1_2_1 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT1_1_2_1">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>1_1_2_1</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT1_1_2"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1_1_2_2 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT1_1_2_2">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>1_1_2_2</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT1_1_2"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1_1_2_3 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT1_1_2_3">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>1_1_2_3</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT1_1_2"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1_1_2_4 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT1_1_2_4">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>1_1_2_4</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT1_1_2"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1_1_2_5 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT1_1_2_5">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>1_1_2_5</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT1_1_2"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1_1_3 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT1_1_3">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>1_1_3</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT1_1"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1_2 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT1_2">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>1_2</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT1"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1_2_1 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT1_2_1">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>1_2_1</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT1_2"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1_2_2 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT1_2_2">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>1_2_2</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT1_2"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT2 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT2">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>2</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT2_1 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT2_1">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>2_1</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT2"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT2_1_1 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT2_1_1">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>2_1_1</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT2_1"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT2_1_2 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT2_1_2">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>2_1_2</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT2_1"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT2_1_3 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT2_1_3">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>2_1_3</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT2_1"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT2_1_4 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT2_1_4">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>2_1_4</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT2_1"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT2_1_5 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT2_1_5">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>2_1_5</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT2_1"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT2_2 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT2_2">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>2_2</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT2"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT2_2_1 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT2_2_1">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>2_2_1</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT2_2"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT2_2_2 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT2_2_2">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>2_2_2</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT2_2"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT2_2_3 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT2_2_3">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>2_2_3</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT2_2"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT2_2_4 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT2_2_4">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>2_2_4</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT2_2"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT2_3 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT2_3">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>2_3</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT2"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT3 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT3">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>3</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT3_1 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT3_1">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>3_1</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT3"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT3_1_1 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT3_1_1">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>3_1_1</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT3_1"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT3_1_2 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT3_1_2">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>3_1_2</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT3_1"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT3_1_3 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT3_1_3">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>3_1_3</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT3_1"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT3_1_4 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT3_1_4">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>3_1_4</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT3_1"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT3_1_5 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT3_1_5">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>3_1_5</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT3_1"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT3_2 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT3_2">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>3_2</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT3"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT4 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT4">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>4</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT4_1 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT4_1">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>4_1</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT4"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT4_2 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT4_2">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>4_2</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT4"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT5">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>5</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5_1 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT5_1">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>5_1</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT5"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5_2 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT5_2">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>5_2</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT5"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5_3 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT5_3">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>5_3</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT5"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5_4 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT5_4">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>5_4</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT5"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5_4_1 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT5_4_1">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>5_4_1</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT5_4"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5_4_2 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT5_4_2">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>5_4_2</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT5_4"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5_4_3 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT5_4_3">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>5_4_3</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT5_4"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5_4_4 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT5_4_4">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>5_4_4</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT5_4"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5_4_5 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT5_4_5">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>5_4_5</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT5_4"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5_4_6 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT5_4_6">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>5_4_6</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT5_4"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5_5 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT5_5">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>5_5</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT5"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5_6 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT5_6">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>5_6</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT5"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5_7 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT5_7">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>5_7</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT5"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5_8 -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/LPT5_8">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+                <owl:hasValue>5_8</owl:hasValue>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/LPT/ontology/LPT5"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/PairOfDatasets -->
+
+
+    <owl:Class rdf:about="https://w3id.org/LPT/ontology/PairOfDatasets">
+        <rdfs:comment xml:lang="en">PairOfDatasets is the set of all pairs of RDF datasets intended to be semantically linked.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT1">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>1</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1_1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT1_1">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>1_1</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1_1_1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT1_1_1">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>1_1_1</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1_1_1_1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT1_1_1_1">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>1_1_1_1</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1_1_1_2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT1_1_1_2">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>1_1_1_2</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1_1_2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT1_1_2">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>1_1_2</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1_1_2_1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT1_1_2_1">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>1_1_2_1</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1_1_2_2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT1_1_2_2">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>1_1_2_2</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1_1_2_3 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT1_1_2_3">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>1_1_2_3</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1_1_2_4 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT1_1_2_4">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>1_1_2_4</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1_1_2_5 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT1_1_2_5">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>1_1_2_5</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1_1_3 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT1_1_3">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>1_1_3</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1_2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT1_2">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>1_2</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1_2_1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT1_2_1">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>1_2_1</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT1_2_2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT1_2_2">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>1_2_2</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT2">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>2</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT2_1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT2_1">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>2_1</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT2_1_1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT2_1_1">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>2_1_1</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT2_1_2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT2_1_2">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>2_1_2</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT2_1_3 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT2_1_3">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>2_1_3</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT2_1_4 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT2_1_4">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>2_1_4</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT2_1_5 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT2_1_5">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>2_1_5</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT2_2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT2_2">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>2_2</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT2_2_1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT2_2_1">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>2_2_1</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT2_2_2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT2_2_2">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>2_2_2</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT2_2_3 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT2_2_3">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>2_2_3</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT2_2_4 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT2_2_4">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>2_2_4</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT2_3 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT2_3">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>2_3</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT3 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT3">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>3</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT3_1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT3_1">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>3_1</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT3_1_1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT3_1_1">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>3_1_1</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT3_1_2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT3_1_2">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>3_1_2</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT3_1_3 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT3_1_3">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>3_1_3</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT3_1_4 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT3_1_4">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>3_1_4</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT3_1_5 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT3_1_5">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>3_1_5</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT3_2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT3_2">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>3_2</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT4 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT4">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>4</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT4_1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT4_1">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>4_1</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT4_2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT4_2">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>4_2</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT5">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>5</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5_1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT5_1">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>5_1</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5_2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT5_2">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>5_2</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5_3 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT5_3">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>5_3</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5_4 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT5_4">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>5_4</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5_4_1 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT5_4_1">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>5_4_1</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5_4_2 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT5_4_2">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>5_4_2</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5_4_3 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT5_4_3">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>5_4_3</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5_4_4 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT5_4_4">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>5_4_4</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5_4_5 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT5_4_5">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>5_4_5</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5_4_6 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT5_4_6">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>5_4_6</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5_5 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT5_5">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>5_5</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5_6 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT5_6">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>5_6</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5_7 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT5_7">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>5_7</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/LPT/ontology/LPT5_8 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/LPT/ontology/LPT5_8">
+        <rdf:type rdf:resource="https://w3id.org/LPT/ontology/LPT"/>
+        <skos:notation>5_8</skos:notation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT1">
+        <rdfs:label>LPT1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT1_1">
+        <rdfs:label>LPT1_1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT1_1_1">
+        <rdfs:label>LPT1_1_1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT1_1_1_1">
+        <rdfs:label>LPT1_1_1_1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT1_1_1_2">
+        <rdfs:label>LPT1_1_1_2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT1_1_2">
+        <rdfs:label>LPT1_1_2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT1_1_2_1">
+        <rdfs:label>LPT1_1_2_1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT1_1_2_2">
+        <rdfs:label>LPT1_1_2_2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT1_1_2_3">
+        <rdfs:label>LPT1_1_2_3</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT1_1_2_4">
+        <rdfs:label>LPT1_1_2_4</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT1_1_2_5">
+        <rdfs:label>LPT1_1_2_5</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT1_1_3">
+        <rdfs:label>LPT1_1_3</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT1_2">
+        <rdfs:label>LPT1_2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT1_2_1">
+        <rdfs:label>LPT1_2_1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT1_2_2">
+        <rdfs:label>LPT1_2_2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT2">
+        <rdfs:label>LPT2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT2_1">
+        <rdfs:label>LPT2_1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT2_1_1">
+        <rdfs:label>LPT2_1_1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT2_1_2">
+        <rdfs:label>LPT2_1_2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT2_1_3">
+        <rdfs:label>LPT2_1_3</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT2_1_4">
+        <rdfs:label>LPT2_1_4</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT2_1_5">
+        <rdfs:label>LPT2_1_5</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT2_2">
+        <rdfs:label>LPT2_2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT2_2_1">
+        <rdfs:label>LPT2_2_1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT2_2_2">
+        <rdfs:label>LPT2_2_2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT2_2_3">
+        <rdfs:label>LPT2_2_3</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT2_2_4">
+        <rdfs:label>LPT2_2_4</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT2_3">
+        <rdfs:label>LPT2_3</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT3">
+        <rdfs:label>LPT3</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT3_1">
+        <rdfs:label>LPT3_1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT3_1_1">
+        <rdfs:label>LPT3_1_1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT3_1_2">
+        <rdfs:label>LPT3_1_2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT3_1_3">
+        <rdfs:label>LPT3_1_3</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT3_1_4">
+        <rdfs:label>LPT3_1_4</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT3_1_5">
+        <rdfs:label>LPT3_1_5</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT3_2">
+        <rdfs:label>LPT3_2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT4">
+        <rdfs:label>LPT4</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT4_1">
+        <rdfs:label>LPT4_1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT4_2">
+        <rdfs:label>LPT4_2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT5">
+        <rdfs:label>LPT5</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT5_1">
+        <rdfs:label>LPT5_1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT5_2">
+        <rdfs:label>LPT5_2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT5_3">
+        <rdfs:label>LPT5_3</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT5_4">
+        <rdfs:label>LPT5_4</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT5_4_1">
+        <rdfs:label>LPT5_4_1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT5_4_2">
+        <rdfs:label>LPT5_4_2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT5_4_3">
+        <rdfs:label>LPT5_4_3</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT5_4_4">
+        <rdfs:label>LPT5_4_4</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT5_4_5">
+        <rdfs:label>LPT5_4_5</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT5_4_6">
+        <rdfs:label>LPT5_4_6</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT5_5">
+        <rdfs:label>LPT5_5</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT5_6">
+        <rdfs:label>LPT5_6</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT5_7">
+        <rdfs:label>LPT5_7</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/LPT/ontology/LPT5_8">
+        <rdfs:label>LPT5_8</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
