@@ -4,6 +4,7 @@ description: DACE-DL ANR project homepage
 url: https://dace-dl.github.io
 paginate_path: "news/page:num/"
 permalink: news/:title/
+permalink: lpto/:title/
 
 # Header Option
 # header: large
