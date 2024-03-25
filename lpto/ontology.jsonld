@@ -500,7 +500,13 @@
   "@id" : "http://purl.org/dc/elements/1.1/description",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://purl.org/dc/terms/abstract",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/terms/bibliographicCitation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/created",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/creator",
@@ -518,6 +524,9 @@
   "@id" : "http://purl.org/dc/terms/language",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
   "@id" : "http://purl.org/dc/terms/modified",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
@@ -528,6 +537,18 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/ontology/bibo/status",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocommons/voaf#extends",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
@@ -546,7 +567,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://www.w3.org/2004/02/skos/core#notation",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
   "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
@@ -554,13 +575,13 @@
   "@id" : "http://www.w3.org/ns/dcat#/Dataset",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/Heterogeneity"
+    "@id" : "https://w3id.org/lpto#Heterogeneity"
   }, {
-    "@id" : "https://w3id.org/LPT/ontology/HeterogeneitySource"
+    "@id" : "https://w3id.org/lpto#HeterogeneitySource"
   }, {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
+    "@id" : "https://w3id.org/lpto#LPT"
   }, {
-    "@id" : "https://w3id.org/LPT/ontology/PairOfDatasets"
+    "@id" : "https://w3id.org/lpto#PairOfDatasets"
   } ]
 }, {
   "@id" : "http://www.w3.org/ns/dcat#/Distribution",
@@ -596,7 +617,86 @@
   "@id" : "http://www.w3.org/ns/prov#wasInfluencedBy",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/Heterogeneity",
+  "@id" : "http://xmlns.com/foaf/0.1/fundedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/citation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://schema.org/funding",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/lpto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
+    "@value" : "Ontology of LPT classification"
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@language" : "en",
+    "@value" : "Ontology of LPTs"
+  } ],
+  "http://purl.org/dc/terms/abstract" : [ {
+    "@language" : "en",
+    "@value" : "As the number of RDF datasets published on the semantic web continues to grow,\n\t\tit becomes increasingly important to efficiently link similar entities between these datasets. However,\n\t\tthe performance of existing data linking tools, often developed for general purposes, seems to have reached a plateau,\n\t\tsuggesting the need for more modular and efficient solutions. We propose-and formalize in OWL-a classification of the different Linking Problem Types (LPTs) to help\n\t\tthe linked data community identify upstream the problems and develop more efficient solutions.\n\t\tBy classifying LPTs, we provide a framework for understanding and addressing the challenges associated with semantic data linking.\n\t\tIt can be used to develop new solutions based on existing modularized tools addressing specific LPTs, thus improving the overall efficiency of data linking."
+  } ],
+  "http://purl.org/dc/terms/created" : [ {
+    "@language" : "en",
+    "@value" : "January 25th, 2024"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@language" : "en",
+    "@value" : "Raphael Conde Salazar"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@id" : "http://creativecommons.org/licenses/by/2.0/"
+  } ],
+  "http://purl.org/ontology/bibo/status" : [ {
+    "@id" : "http://purl.org/ontology/bibo/status/stable"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@language" : "en",
+    "@value" : "lpto"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@value" : "https://w3id.org/lpto#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An ontology designed to illustrate the types of linking problems (LPTs) to help the data linking community."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Ontology of LPTs"
+  } ],
+  "http://www.w3.org/2002/07/owl#imports" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "https://w3id.org/lpto/1.0.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "1.0.0"
+  } ],
+  "http://xmlns.com/foaf/0.1/fundedBy" : [ {
+    "@id" : "https://example.org/fundingOrganization"
+  } ],
+  "https://schema.org/citation" : [ {
+    "@language" : "en",
+    "@value" : "Cite this vocabulary as: Raphaël Conde Salazar , Clément Jonquet , Danai Symeonidou; Classification of Linking Problem Types for linking semantic data; DOI: 10.3233/SSW230014"
+  } ],
+  "https://schema.org/funding" : [ {
+    "@id" : "https://anr.fr/Projet-ANR-21-CE23-0019"
+  } ],
+  "https://w3id.org/widoco/vocab#introduction" : [ {
+    "@language" : "en",
+    "@value" : "Our classification is based on the description of heterogeneity reported in the literature and identifies five main types\n\t\tof linking problems: predicate value problems, predicate problems, class problems, subgraph problems, and graph problems."
+  } ],
+  "https://w3id.org/widoco/vocab#rdfxmlSerialization" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://w3id.org/lpto/ontology.xml"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto#Heterogeneity",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -609,25 +709,25 @@
     "@id" : "http://www.w3.org/ns/prov#Entity"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/HeterogeneitySource"
+    "@id" : "https://w3id.org/lpto#HeterogeneitySource"
   }, {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
+    "@id" : "https://w3id.org/lpto#LPT"
   }, {
-    "@id" : "https://w3id.org/LPT/ontology/PairOfDatasets"
+    "@id" : "https://w3id.org/lpto#PairOfDatasets"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/HeterogeneitySource",
+  "@id" : "https://w3id.org/lpto#HeterogeneitySource",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://www.w3.org/ns/prov#Entity"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
+    "@id" : "https://w3id.org/lpto#LPT"
   }, {
-    "@id" : "https://w3id.org/LPT/ontology/PairOfDatasets"
+    "@id" : "https://w3id.org/lpto#PairOfDatasets"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT",
+  "@id" : "https://w3id.org/lpto#LPT",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -641,1006 +741,1162 @@
     "@id" : "_:genid1"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/PairOfDatasets"
+    "@id" : "https://w3id.org/lpto#PairOfDatasets"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
+    "@id" : "https://w3id.org/lpto#LPT"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid2"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "1"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT1_1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT1_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT1"
+    "@id" : "https://w3id.org/lpto#LPT1"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid3"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "1_1"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT1_1_1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT1_1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT1_1_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT1_1"
+    "@id" : "https://w3id.org/lpto#LPT1_1"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid4"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "1_1_1"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT1_1_1_1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT1_1_1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT1_1_1_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT1_1_1"
+    "@id" : "https://w3id.org/lpto#LPT1_1_1"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid5"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "1_1_1_1"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT1_1_1_2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT1_1_1_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT1_1_1_2"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT1_1_1"
+    "@id" : "https://w3id.org/lpto#LPT1_1_1"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid6"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "1_1_1_2"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT1_1_2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT1_1_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT1_1_2"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT1_1"
+    "@id" : "https://w3id.org/lpto#LPT1_1"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid7"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "1_1_2"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT1_1_2_1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT1_1_2_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT1_1_2_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT1_1_2"
+    "@id" : "https://w3id.org/lpto#LPT1_1_2"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid8"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "1_1_2_1"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT1_1_2_2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT1_1_2_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT1_1_2_2"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT1_1_2"
+    "@id" : "https://w3id.org/lpto#LPT1_1_2"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid9"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "1_1_2_2"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT1_1_2_3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT1_1_2_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT1_1_2_3"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT1_1_2"
+    "@id" : "https://w3id.org/lpto#LPT1_1_2"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid10"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "1_1_2_3"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT1_1_2_4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT1_1_2_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT1_1_2_4"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT1_1_2"
+    "@id" : "https://w3id.org/lpto#LPT1_1_2"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid11"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "1_1_2_4"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT1_1_2_5",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT1_1_2_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT1_1_2_5"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT1_1_2"
+    "@id" : "https://w3id.org/lpto#LPT1_1_2"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid12"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "1_1_2_5"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT1_1_3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT1_1_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT1_1_3"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT1_1"
+    "@id" : "https://w3id.org/lpto#LPT1_1"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid13"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "1_1_3"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT1_2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT1_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT1_2"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT1"
+    "@id" : "https://w3id.org/lpto#LPT1"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid14"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "1_2"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT1_2_1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT1_2_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT1_2_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT1_2"
+    "@id" : "https://w3id.org/lpto#LPT1_2"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid15"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "1_2_1"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT1_2_2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT1_2_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT1_2_2"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT1_2"
+    "@id" : "https://w3id.org/lpto#LPT1_2"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid16"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "1_2_2"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT2"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
+    "@id" : "https://w3id.org/lpto#LPT"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid17"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "2"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT2_1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT2_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT2_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT2"
+    "@id" : "https://w3id.org/lpto#LPT2"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid18"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "2_1"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT2_1_1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT2_1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT2_1_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT2_1"
+    "@id" : "https://w3id.org/lpto#LPT2_1"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid19"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "2_1_1"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT2_1_2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT2_1_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT2_1_2"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT2_1"
+    "@id" : "https://w3id.org/lpto#LPT2_1"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid20"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "2_1_2"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT2_1_3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT2_1_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT2_1_3"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT2_1"
+    "@id" : "https://w3id.org/lpto#LPT2_1"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid21"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "2_1_3"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT2_1_4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT2_1_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT2_1_4"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT2_1"
+    "@id" : "https://w3id.org/lpto#LPT2_1"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid22"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "2_1_4"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT2_1_5",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT2_1_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT2_1_5"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT2_1"
+    "@id" : "https://w3id.org/lpto#LPT2_1"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid23"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "2_1_5"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT2_2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT2_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT2_2"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT2"
+    "@id" : "https://w3id.org/lpto#LPT2"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid24"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "2_2"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT2_2_1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT2_2_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT2_2_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT2_2"
+    "@id" : "https://w3id.org/lpto#LPT2_2"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid25"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "2_2_1"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT2_2_2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT2_2_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT2_2_2"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT2_2"
+    "@id" : "https://w3id.org/lpto#LPT2_2"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid26"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "2_2_2"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT2_2_3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT2_2_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT2_2_3"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT2_2"
+    "@id" : "https://w3id.org/lpto#LPT2_2"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid27"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "2_2_3"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT2_2_4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT2_2_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT2_2_4"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT2_2"
+    "@id" : "https://w3id.org/lpto#LPT2_2"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid28"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "2_2_4"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT2_3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT2_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT2_3"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT2"
+    "@id" : "https://w3id.org/lpto#LPT2"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid29"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "2_3"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT3"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
+    "@id" : "https://w3id.org/lpto#LPT"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid30"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "3"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT3_1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT3_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT3_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT3"
+    "@id" : "https://w3id.org/lpto#LPT3"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid31"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "3_1"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT3_1_1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT3_1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT3_1_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT3_1"
+    "@id" : "https://w3id.org/lpto#LPT3_1"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid32"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "3_1_1"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT3_1_2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT3_1_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT3_1_2"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT3_1"
+    "@id" : "https://w3id.org/lpto#LPT3_1"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid33"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "3_1_2"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT3_1_3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT3_1_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT3_1_3"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT3_1"
+    "@id" : "https://w3id.org/lpto#LPT3_1"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid34"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "3_1_3"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT3_1_4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT3_1_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT3_1_4"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT3_1"
+    "@id" : "https://w3id.org/lpto#LPT3_1"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid35"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "3_1_4"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT3_1_5",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT3_1_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT3_1_5"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT3_1"
+    "@id" : "https://w3id.org/lpto#LPT3_1"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid36"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "3_1_5"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT3_2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT3_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT3_2"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT3"
+    "@id" : "https://w3id.org/lpto#LPT3"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid37"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "3_2"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT4"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
+    "@id" : "https://w3id.org/lpto#LPT"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid38"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "4"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT4_1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT4_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT4_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT4"
+    "@id" : "https://w3id.org/lpto#LPT4"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid39"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "4_1"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT4_2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT4_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT4_2"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT4"
+    "@id" : "https://w3id.org/lpto#LPT4"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid40"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "4_2"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT5",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT5"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
+    "@id" : "https://w3id.org/lpto#LPT"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid41"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "5"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT5_1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT5_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT5_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT5"
+    "@id" : "https://w3id.org/lpto#LPT5"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid42"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "5_1"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT5_2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT5_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT5_2"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT5"
+    "@id" : "https://w3id.org/lpto#LPT5"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid43"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "5_2"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT5_3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT5_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT5_3"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT5"
+    "@id" : "https://w3id.org/lpto#LPT5"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid44"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "5_3"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT5_4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT5_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT5_4"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT5"
+    "@id" : "https://w3id.org/lpto#LPT5"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid45"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "5_4"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT5_4_1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT5_4_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT5_4_1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT5_4"
+    "@id" : "https://w3id.org/lpto#LPT5_4"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid46"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "5_4_1"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT5_4_2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT5_4_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT5_4_2"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT5_4"
+    "@id" : "https://w3id.org/lpto#LPT5_4"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid47"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "5_4_2"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT5_4_3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT5_4_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT5_4_3"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT5_4"
+    "@id" : "https://w3id.org/lpto#LPT5_4"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid48"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "5_4_3"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT5_4_4",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT5_4_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT5_4_4"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT5_4"
+    "@id" : "https://w3id.org/lpto#LPT5_4"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid49"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "5_4_4"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT5_4_5",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT5_4_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT5_4_5"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT5_4"
+    "@id" : "https://w3id.org/lpto#LPT5_4"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid50"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "5_4_5"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT5_4_6",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT5_4_6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT5_4_6"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT5_4"
+    "@id" : "https://w3id.org/lpto#LPT5_4"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid51"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "5_4_6"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT5_5",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT5_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT5_5"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT5"
+    "@id" : "https://w3id.org/lpto#LPT5"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid52"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "5_5"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT5_6",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT5_6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT5_6"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT5"
+    "@id" : "https://w3id.org/lpto#LPT5"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid53"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "5_6"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT5_7",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT5_7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT5_7"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT5"
+    "@id" : "https://w3id.org/lpto#LPT5"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid54"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "5_7"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPT5_8",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
-  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT"
-  } ],
+  "@id" : "https://w3id.org/lpto#LPT5_8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "LPT5_8"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://w3id.org/LPT/ontology/LPT5"
+    "@id" : "https://w3id.org/lpto#LPT5"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
     "@id" : "_:genid55"
-  } ],
-  "http://www.w3.org/2004/02/skos/core#notation" : [ {
-    "@value" : "5_8"
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/LPTsOntology",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
-  "http://purl.org/dc/elements/1.1/creator" : [ {
-    "@value" : "Raphaël CONDE SALAZAR"
-  } ],
-  "http://purl.org/dc/elements/1.1/description" : [ {
-    "@value" : "Ontology of LPT classification"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "Ontology of LPTs"
-  } ]
-}, {
-  "@id" : "https://w3id.org/LPT/ontology/PairOfDatasets",
+  "@id" : "https://w3id.org/lpto#PairOfDatasets",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "PairOfDatasets is the set of all pairs of RDF datasets intended to be semantically linked."
   } ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/hasSource",
+  "@id" : "https://w3id.org/lpto#hasSource",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/hasTarget",
+  "@id" : "https://w3id.org/lpto#hasTarget",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "https://w3id.org/LPT/ontology/occursIn",
+  "@id" : "https://w3id.org/lpto#occursIn",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "1_1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT1_1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "1_1_1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT1_1_1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "1_1_1_1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT1_1_1_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "1_1_1_2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT1_1_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "1_1_2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT1_1_2_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "1_1_2_1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT1_1_2_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "1_1_2_2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT1_1_2_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "1_1_2_3"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT1_1_2_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "1_1_2_4"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT1_1_2_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "1_1_2_5"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT1_1_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "1_1_3"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT1_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "1_2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT1_2_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "1_2_1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT1_2_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "1_2_2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT2_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "2_1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT2_1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "2_1_1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT2_1_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "2_1_2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT2_1_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "2_1_3"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT2_1_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "2_1_4"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT2_1_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "2_1_5"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT2_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "2_2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT2_2_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "2_2_1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT2_2_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "2_2_2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT2_2_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "2_2_3"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT2_2_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "2_2_4"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT2_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "2_3"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "3"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT3_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "3_1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT3_1_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "3_1_1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT3_1_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "3_1_2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT3_1_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "3_1_3"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT3_1_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "3_1_4"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT3_1_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "3_1_5"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT3_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "3_2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "4"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT4_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "4_1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT4_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "4_2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "5"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT5_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "5_1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT5_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "5_2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT5_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "5_3"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT5_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "5_4"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT5_4_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "5_4_1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT5_4_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "5_4_2"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT5_4_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "5_4_3"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT5_4_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "5_4_4"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT5_4_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "5_4_5"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT5_4_6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "5_4_6"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT5_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "5_5"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT5_6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "5_6"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT5_7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "5_7"
+  } ]
+}, {
+  "@id" : "https://w3id.org/lpto/LPT5_8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/lpto#LPT"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#notation" : [ {
+    "@value" : "5_8"
+  } ]
+}, {
+  "@id" : "https://w3id.org/widoco/vocab#introduction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://w3id.org/widoco/vocab#rdfxmlSerialization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 } ]
