@@ -79,13 +79,13 @@
     "id" : "72",
     "type" : "owl:Class"
   }, {
-    "id" : "99",
-    "type" : "owl:Class"
-  }, {
-    "id" : "100",
-    "type" : "owl:Class"
-  }, {
     "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
     "type" : "owl:Class"
   }, {
     "id" : "102",
@@ -94,13 +94,16 @@
     "id" : "52",
     "type" : "owl:Class"
   }, {
-    "id" : "103",
-    "type" : "owl:Class"
-  }, {
     "id" : "54",
     "type" : "owl:Class"
   }, {
+    "id" : "103",
+    "type" : "owl:Class"
+  }, {
     "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
     "type" : "owl:Class"
   }, {
     "id" : "26",
@@ -109,13 +112,10 @@
     "id" : "104",
     "type" : "owl:Class"
   }, {
-    "id" : "57",
+    "id" : "33",
     "type" : "owl:Class"
   }, {
     "id" : "27",
-    "type" : "owl:Class"
-  }, {
-    "id" : "33",
     "type" : "owl:Class"
   }, {
     "id" : "28",
@@ -127,10 +127,10 @@
     "id" : "1",
     "type" : "owl:Class"
   }, {
-    "id" : "29",
+    "id" : "4",
     "type" : "owl:Class"
   }, {
-    "id" : "4",
+    "id" : "29",
     "type" : "owl:Class"
   }, {
     "id" : "6",
@@ -395,7 +395,7 @@
       "IRI-based" : "Heterogeneity"
     },
     "comment" : {
-      "en" : "Heterogeneity is the set of all heterogeneities described in the data linking corpus."
+      "en" : "HeterogeneitySource is the set of all bibliographic references dealing with a heterogeneity described in the data linking corpus."
     },
     "attributes" : [ "external" ],
     "id" : "80",
@@ -443,7 +443,7 @@
       "undefined" : "LPT5_4_3"
     },
     "attributes" : [ "external" ],
-    "id" : "99",
+    "id" : "101",
     "superClasses" : [ "35" ]
   }, {
     "iri" : "https://w3id.org/LPT/ontology/LPT5_4_4",
@@ -454,7 +454,7 @@
       "undefined" : "LPT5_4_4"
     },
     "attributes" : [ "external" ],
-    "id" : "100",
+    "id" : "93",
     "superClasses" : [ "35" ]
   }, {
     "iri" : "https://w3id.org/LPT/ontology/LPT5_4_5",
@@ -465,7 +465,7 @@
       "undefined" : "LPT5_4_5"
     },
     "attributes" : [ "external" ],
-    "id" : "101",
+    "id" : "97",
     "superClasses" : [ "35" ]
   }, {
     "iri" : "https://w3id.org/LPT/ontology/LPT5_4_6",
@@ -490,17 +490,6 @@
     "id" : "52",
     "superClasses" : [ "2" ]
   }, {
-    "iri" : "https://w3id.org/LPT/ontology/LPT5_4_1",
-    "baseIri" : "https://w3id.org/LPT/ontology",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "LPT5_4_1",
-      "undefined" : "LPT5_4_1"
-    },
-    "attributes" : [ "external" ],
-    "id" : "103",
-    "superClasses" : [ "35" ]
-  }, {
     "iri" : "https://w3id.org/LPT/ontology/LPT5_3",
     "baseIri" : "https://w3id.org/LPT/ontology",
     "instances" : 0,
@@ -512,6 +501,17 @@
     "id" : "54",
     "superClasses" : [ "2" ]
   }, {
+    "iri" : "https://w3id.org/LPT/ontology/LPT5_4_1",
+    "baseIri" : "https://w3id.org/LPT/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LPT5_4_1",
+      "undefined" : "LPT5_4_1"
+    },
+    "attributes" : [ "external" ],
+    "id" : "103",
+    "superClasses" : [ "35" ]
+  }, {
     "iri" : "https://w3id.org/LPT/ontology/LPT1_1_2_2",
     "baseIri" : "https://w3id.org/LPT/ontology",
     "instances" : 0,
@@ -522,6 +522,17 @@
     "attributes" : [ "external" ],
     "id" : "25",
     "superClasses" : [ "24" ]
+  }, {
+    "iri" : "https://w3id.org/LPT/ontology/LPT5_2",
+    "baseIri" : "https://w3id.org/LPT/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LPT5_2",
+      "undefined" : "LPT5_2"
+    },
+    "attributes" : [ "external" ],
+    "id" : "57",
+    "superClasses" : [ "2" ]
   }, {
     "iri" : "https://w3id.org/LPT/ontology/LPT1_1_2_1",
     "baseIri" : "https://w3id.org/LPT/ontology",
@@ -545,15 +556,15 @@
     "id" : "104",
     "superClasses" : [ "35" ]
   }, {
-    "iri" : "https://w3id.org/LPT/ontology/LPT5_2",
+    "iri" : "https://w3id.org/LPT/ontology/LPT5_5",
     "baseIri" : "https://w3id.org/LPT/ontology",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "LPT5_2",
-      "undefined" : "LPT5_2"
+      "IRI-based" : "LPT5_5",
+      "undefined" : "LPT5_5"
     },
     "attributes" : [ "external" ],
-    "id" : "57",
+    "id" : "33",
     "superClasses" : [ "2" ]
   }, {
     "iri" : "https://w3id.org/LPT/ontology/LPT1_1_2_4",
@@ -566,17 +577,6 @@
     "attributes" : [ "external" ],
     "id" : "27",
     "superClasses" : [ "24" ]
-  }, {
-    "iri" : "https://w3id.org/LPT/ontology/LPT5_5",
-    "baseIri" : "https://w3id.org/LPT/ontology",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "LPT5_5",
-      "undefined" : "LPT5_5"
-    },
-    "attributes" : [ "external" ],
-    "id" : "33",
-    "superClasses" : [ "2" ]
   }, {
     "iri" : "https://w3id.org/LPT/ontology/LPT1_1_2_3",
     "baseIri" : "https://w3id.org/LPT/ontology",
@@ -596,7 +596,7 @@
       "IRI-based" : "LPT5_4",
       "undefined" : "LPT5_4"
     },
-    "subClasses" : [ "99", "100", "101", "102", "103", "104" ],
+    "subClasses" : [ "101", "93", "97", "102", "103", "104" ],
     "attributes" : [ "external" ],
     "id" : "35",
     "superClasses" : [ "2" ]
@@ -612,17 +612,6 @@
     "id" : "1",
     "superClasses" : [ "2" ]
   }, {
-    "iri" : "https://w3id.org/LPT/ontology/LPT1_1_2_5",
-    "baseIri" : "https://w3id.org/LPT/ontology",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "LPT1_1_2_5",
-      "undefined" : "LPT1_1_2_5"
-    },
-    "attributes" : [ "external" ],
-    "id" : "29",
-    "superClasses" : [ "24" ]
-  }, {
     "iri" : "https://w3id.org/LPT/ontology/LPT5_6",
     "baseIri" : "https://w3id.org/LPT/ontology",
     "instances" : 0,
@@ -633,6 +622,17 @@
     "attributes" : [ "external" ],
     "id" : "4",
     "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/LPT/ontology/LPT1_1_2_5",
+    "baseIri" : "https://w3id.org/LPT/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LPT1_1_2_5",
+      "undefined" : "LPT1_1_2_5"
+    },
+    "attributes" : [ "external" ],
+    "id" : "29",
+    "superClasses" : [ "24" ]
   }, {
     "iri" : "https://w3id.org/LPT/ontology/LPT5_8",
     "baseIri" : "https://w3id.org/LPT/ontology",
@@ -1039,9 +1039,6 @@
     "id" : "92",
     "type" : "rdf:Property"
   }, {
-    "id" : "93",
-    "type" : "rdf:Property"
-  }, {
     "id" : "94",
     "type" : "rdf:Property"
   }, {
@@ -1051,10 +1048,13 @@
     "id" : "96",
     "type" : "rdf:Property"
   }, {
-    "id" : "97",
+    "id" : "98",
     "type" : "rdf:Property"
   }, {
-    "id" : "98",
+    "id" : "99",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "100",
     "type" : "rdf:Property"
   }, {
     "id" : "105",
@@ -1504,7 +1504,7 @@
     "id" : "85"
   }, {
     "domain" : "72",
-    "range" : "84",
+    "range" : "82",
     "id" : "87",
     "label" : {
       "IRI-based" : "30",
@@ -1512,7 +1512,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "43",
+    "range" : "19",
     "id" : "89",
     "label" : {
       "IRI-based" : "29",
@@ -1520,7 +1520,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "6",
+    "range" : "1",
     "id" : "90",
     "label" : {
       "IRI-based" : "28",
@@ -1528,7 +1528,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "79",
+    "range" : "63",
     "id" : "91",
     "label" : {
       "IRI-based" : "25",
@@ -1536,7 +1536,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "48",
+    "range" : "93",
     "id" : "92",
     "label" : {
       "IRI-based" : "24",
@@ -1544,55 +1544,55 @@
     }
   }, {
     "domain" : "72",
-    "range" : "40",
-    "id" : "93",
+    "range" : "24",
+    "id" : "94",
     "label" : {
       "IRI-based" : "27",
       "undefined" : "is a"
     }
   }, {
     "domain" : "72",
-    "range" : "63",
-    "id" : "94",
+    "range" : "35",
+    "id" : "95",
     "label" : {
       "IRI-based" : "26",
       "undefined" : "is a"
     }
   }, {
     "domain" : "72",
-    "range" : "44",
-    "id" : "95",
+    "range" : "97",
+    "id" : "96",
     "label" : {
       "IRI-based" : "21",
       "undefined" : "is a"
     }
   }, {
     "domain" : "72",
-    "range" : "4",
-    "id" : "96",
+    "range" : "79",
+    "id" : "98",
     "label" : {
       "IRI-based" : "20",
       "undefined" : "is a"
     }
   }, {
     "domain" : "72",
-    "range" : "35",
-    "id" : "97",
+    "range" : "86",
+    "id" : "99",
     "label" : {
       "IRI-based" : "23",
       "undefined" : "is a"
     }
   }, {
     "domain" : "72",
-    "range" : "20",
-    "id" : "98",
+    "range" : "26",
+    "id" : "100",
     "label" : {
       "IRI-based" : "22",
       "undefined" : "is a"
     }
   }, {
     "domain" : "72",
-    "range" : "38",
+    "range" : "103",
     "id" : "105",
     "label" : {
       "IRI-based" : "18",
@@ -1600,7 +1600,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "15",
+    "range" : "9",
     "id" : "106",
     "label" : {
       "IRI-based" : "17",
@@ -1608,7 +1608,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "103",
+    "range" : "15",
     "id" : "107",
     "label" : {
       "IRI-based" : "19",
@@ -1616,7 +1616,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "16",
+    "range" : "84",
     "id" : "108",
     "label" : {
       "IRI-based" : "14",
@@ -1624,7 +1624,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "26",
+    "range" : "11",
     "id" : "109",
     "label" : {
       "IRI-based" : "13",
@@ -1632,7 +1632,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "13",
+    "range" : "43",
     "id" : "110",
     "label" : {
       "IRI-based" : "16",
@@ -1640,7 +1640,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "82",
+    "range" : "40",
     "id" : "111",
     "label" : {
       "IRI-based" : "15",
@@ -1654,11 +1654,11 @@
       "IRI-based" : "notation"
     },
     "domain" : "72",
-    "attributes" : [ "external", "datatype", "allValues" ],
+    "attributes" : [ "allValues", "datatype", "external" ],
     "id" : "112"
   }, {
     "domain" : "72",
-    "range" : "8",
+    "range" : "42",
     "id" : "115",
     "label" : {
       "IRI-based" : "12",
@@ -1666,7 +1666,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "29",
+    "range" : "6",
     "id" : "116",
     "label" : {
       "IRI-based" : "50",
@@ -1674,7 +1674,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "24",
+    "range" : "28",
     "id" : "117",
     "label" : {
       "IRI-based" : "52",
@@ -1682,7 +1682,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "57",
+    "range" : "101",
     "id" : "118",
     "label" : {
       "IRI-based" : "51",
@@ -1690,7 +1690,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "18",
+    "range" : "8",
     "id" : "120",
     "label" : {
       "IRI-based" : "47",
@@ -1698,7 +1698,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "21",
+    "range" : "59",
     "id" : "121",
     "label" : {
       "IRI-based" : "46",
@@ -1706,7 +1706,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "27",
+    "range" : "48",
     "id" : "122",
     "label" : {
       "IRI-based" : "49",
@@ -1714,7 +1714,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "100",
+    "range" : "4",
     "id" : "123",
     "label" : {
       "IRI-based" : "48",
@@ -1722,7 +1722,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "33",
+    "range" : "47",
     "id" : "124",
     "label" : {
       "IRI-based" : "43",
@@ -1730,7 +1730,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "61",
+    "range" : "18",
     "id" : "125",
     "label" : {
       "IRI-based" : "42",
@@ -1738,7 +1738,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "77",
+    "range" : "38",
     "id" : "126",
     "label" : {
       "IRI-based" : "45",
@@ -1746,7 +1746,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "54",
+    "range" : "77",
     "id" : "127",
     "label" : {
       "IRI-based" : "44",
@@ -1754,7 +1754,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "102",
+    "range" : "70",
     "id" : "128",
     "label" : {
       "IRI-based" : "41",
@@ -1762,7 +1762,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "50",
+    "range" : "69",
     "id" : "129",
     "label" : {
       "IRI-based" : "40",
@@ -1780,7 +1780,7 @@
     "id" : "130"
   }, {
     "domain" : "72",
-    "range" : "101",
+    "range" : "2",
     "id" : "131",
     "label" : {
       "IRI-based" : "39",
@@ -1788,7 +1788,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "59",
+    "range" : "23",
     "id" : "132",
     "label" : {
       "IRI-based" : "36",
@@ -1796,7 +1796,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "68",
+    "range" : "13",
     "id" : "133",
     "label" : {
       "IRI-based" : "35",
@@ -1804,7 +1804,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "86",
+    "range" : "44",
     "id" : "134",
     "label" : {
       "IRI-based" : "38",
@@ -1812,7 +1812,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "28",
+    "range" : "27",
     "id" : "135",
     "label" : {
       "IRI-based" : "37",
@@ -1820,7 +1820,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "42",
+    "range" : "65",
     "id" : "136",
     "label" : {
       "IRI-based" : "32",
@@ -1828,7 +1828,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "1",
+    "range" : "22",
     "id" : "137",
     "label" : {
       "IRI-based" : "31",
@@ -1836,7 +1836,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "104",
+    "range" : "29",
     "id" : "138",
     "label" : {
       "IRI-based" : "34",
@@ -1844,7 +1844,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "69",
+    "range" : "33",
     "id" : "139",
     "label" : {
       "IRI-based" : "33",
@@ -1887,7 +1887,7 @@
     "id" : "146"
   }, {
     "domain" : "72",
-    "range" : "11",
+    "range" : "102",
     "id" : "147",
     "label" : {
       "IRI-based" : "65",
@@ -1895,7 +1895,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "52",
+    "range" : "16",
     "id" : "148",
     "label" : {
       "IRI-based" : "64",
@@ -1908,7 +1908,7 @@
     "id" : "149"
   }, {
     "domain" : "72",
-    "range" : "47",
+    "range" : "52",
     "id" : "150",
     "label" : {
       "IRI-based" : "61",
@@ -1916,7 +1916,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "22",
+    "range" : "20",
     "id" : "151",
     "label" : {
       "IRI-based" : "60",
@@ -1924,7 +1924,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "65",
+    "range" : "68",
     "id" : "152",
     "label" : {
       "IRI-based" : "63",
@@ -1932,7 +1932,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "2",
+    "range" : "61",
     "id" : "153",
     "label" : {
       "IRI-based" : "62",
@@ -1940,7 +1940,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "23",
+    "range" : "21",
     "id" : "154",
     "label" : {
       "IRI-based" : "58",
@@ -1948,7 +1948,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "19",
+    "range" : "36",
     "id" : "155",
     "label" : {
       "IRI-based" : "57",
@@ -1964,7 +1964,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "70",
+    "range" : "50",
     "id" : "157",
     "label" : {
       "IRI-based" : "54",
@@ -1972,7 +1972,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "99",
+    "range" : "57",
     "id" : "158",
     "label" : {
       "IRI-based" : "53",
@@ -1980,7 +1980,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "36",
+    "range" : "104",
     "id" : "159",
     "label" : {
       "IRI-based" : "56",
@@ -1988,7 +1988,7 @@
     }
   }, {
     "domain" : "72",
-    "range" : "9",
+    "range" : "54",
     "id" : "160",
     "label" : {
       "IRI-based" : "55",
@@ -2016,7 +2016,7 @@
     "id" : "164"
   }, {
     "range" : "35",
-    "domain" : "101",
+    "domain" : "97",
     "attributes" : [ "object", "anonymous" ],
     "id" : "165"
   }, {
@@ -2040,7 +2040,7 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "169"
   }, {
-    "range" : "66",
+    "range" : "114",
     "domain" : "80",
     "attributes" : [ "object", "anonymous" ],
     "id" : "170"
@@ -2050,17 +2050,17 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "171"
   }, {
-    "range" : "114",
+    "range" : "66",
     "domain" : "80",
     "attributes" : [ "object", "anonymous" ],
     "id" : "172"
   }, {
-    "range" : "72",
+    "range" : "114",
     "domain" : "66",
     "attributes" : [ "object", "anonymous" ],
     "id" : "173"
   }, {
-    "range" : "114",
+    "range" : "72",
     "domain" : "66",
     "attributes" : [ "object", "anonymous" ],
     "id" : "174"
@@ -2070,12 +2070,12 @@
     "attributes" : [ "object", "anonymous" ],
     "id" : "175"
   }, {
-    "range" : "66",
+    "range" : "114",
     "domain" : "73",
     "attributes" : [ "object", "anonymous" ],
     "id" : "176"
   }, {
-    "range" : "114",
+    "range" : "66",
     "domain" : "73",
     "attributes" : [ "object", "anonymous" ],
     "id" : "177"
@@ -2091,12 +2091,12 @@
     "id" : "179"
   }, {
     "range" : "35",
-    "domain" : "100",
+    "domain" : "93",
     "attributes" : [ "object", "anonymous" ],
     "id" : "180"
   }, {
     "range" : "35",
-    "domain" : "99",
+    "domain" : "101",
     "attributes" : [ "object", "anonymous" ],
     "id" : "181"
   }, {
