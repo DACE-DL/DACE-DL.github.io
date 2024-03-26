@@ -5,7 +5,6 @@
 <https://w3id.org/lpto> <http://purl.org/dc/elements/1.1/title> "Ontology of LPTs"@en .
 <https://w3id.org/lpto> <http://purl.org/dc/terms/abstract> "As the number of RDF datasets published on the semantic web continues to grow,\n\t\tit becomes increasingly important to efficiently link similar entities between these datasets. However,\n\t\tthe performance of existing data linking tools, often developed for general purposes, seems to have reached a plateau,\n\t\tsuggesting the need for more modular and efficient solutions. We propose-and formalize in OWL-a classification of the different Linking Problem Types (LPTs) to help\n\t\tthe linked data community identify upstream the problems and develop more efficient solutions.\n\t\tBy classifying LPTs, we provide a framework for understanding and addressing the challenges associated with semantic data linking.\n\t\tIt can be used to develop new solutions based on existing modularized tools addressing specific LPTs, thus improving the overall efficiency of data linking."@en .
 <https://w3id.org/lpto> <http://purl.org/dc/terms/created> "January 25th, 2024"@en .
-<https://w3id.org/lpto> <http://purl.org/dc/terms/creator> "Raphael Conde Salazar"@en .
 <https://w3id.org/lpto> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/2.0/> .
 <https://w3id.org/lpto> <http://purl.org/ontology/bibo/status> <http://purl.org/ontology/bibo/status/stable> .
 <https://w3id.org/lpto> <http://purl.org/vocab/vann/preferredNamespacePrefix> "lpto"@en .
@@ -13,8 +12,43 @@
 <https://w3id.org/lpto> <http://www.w3.org/2000/01/rdf-schema#comment> "An ontology designed to illustrate the types of linking problems (LPTs) to help the data linking community."@en .
 <https://w3id.org/lpto> <http://www.w3.org/2000/01/rdf-schema#label> "Ontology of LPTs" .
 <https://w3id.org/lpto> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0" .
-<https://w3id.org/lpto> <http://xmlns.com/foaf/0.1/fundedBy> <https://example.org/fundingOrganization> .
+<https://w3id.org/lpto> <http://xmlns.com/foaf/0.1/fundedBy> <https://anr.fr/> .
 <https://w3id.org/lpto> <https://schema.org/citation> "Cite this vocabulary as: Raphaël Conde Salazar , Clément Jonquet , Danai Symeonidou; Classification of Linking Problem Types for linking semantic data; DOI: 10.3233/SSW230014"@en .
+<https://w3id.org/lpto> <https://schema.org/creator> _:genid1 .
+_:genid1 <https://schema.org/url> <https://orcid.org/0000-0002-6926-5299> .
+_:genid1 <https://schema.org/name> "Raphaël Conde Salazar"@fr .
+_:genid1 <https://schema.org/name> "Raphael Conde Salazar"@en .
+_:genid1 <https://schema.org/familyName> "Conde Salazar"@fr .
+_:genid1 <https://schema.org/familyName> "Conde Salazar"@en .
+_:genid1 <http://www.w3.org/ns/org#memberOf> _:genid2 .
+_:genid2 <https://schema.org/url> "https://mistea.montpellier.hub.inrae.fr/" .
+_:genid2 <http://xmlns.com/foaf/0.1/name> "MISTEA, University of Montpellier, INRAE & Institut Agro, France" .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+<http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<http://schema.org/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/lpto> <https://schema.org/creator> _:genid3 .
+_:genid3 <https://schema.org/url> <https://orcid.org/0000-0002-2404-1582> .
+_:genid3 <https://schema.org/name> "Clément Jonquet"@fr .
+_:genid3 <https://schema.org/name> "Clement Jonquet"@en .
+_:genid3 <http://www.w3.org/ns/org#memberOf> _:genid5 .
+_:genid5 <https://schema.org/url> "https://www.lirmm.fr/" .
+_:genid5 <http://xmlns.com/foaf/0.1/name> "LIRMM, University of Montpellier & CNRS, France" .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+_:genid3 <http://www.w3.org/ns/org#memberOf> _:genid4 .
+_:genid4 <https://schema.org/url> "https://mistea.montpellier.hub.inrae.fr/" .
+_:genid4 <http://xmlns.com/foaf/0.1/name> "MISTEA, University of Montpellier, INRAE & Institut Agro, France" .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+<https://w3id.org/lpto> <https://schema.org/creator> _:genid6 .
+_:genid6 <https://schema.org/url> <https://orcid.org/0000-0003-1152-5200> .
+_:genid6 <https://schema.org/name> "Danaï Simeonidou"@fr .
+_:genid6 <https://schema.org/name> "Danai Simeonidou"@en .
+_:genid6 <http://www.w3.org/ns/org#memberOf> _:genid7 .
+_:genid7 <https://schema.org/url> "https://mistea.montpellier.hub.inrae.fr/" .
+_:genid7 <http://xmlns.com/foaf/0.1/name> "MISTEA, University of Montpellier, INRAE & Institut Agro, France" .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://w3id.org/lpto> <https://schema.org/funding> <https://anr.fr/Projet-ANR-21-CE23-0019> .
 <https://w3id.org/lpto> <https://w3id.org/widoco/vocab#introduction> "Our classification is based on the description of heterogeneity reported in the literature and identifies five main types\n\t\tof linking problems: predicate value problems, predicate problems, class problems, subgraph problems, and graph problems."@en .
 <https://w3id.org/lpto> <https://w3id.org/widoco/vocab#rdfxmlSerialization> "https://w3id.org/lpto/ontology.xml"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
@@ -117,14 +151,32 @@
 # http://www.w3.org/ns/dcat#/mediaType
 <http://www.w3.org/ns/dcat#/mediaType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# http://www.w3.org/ns/org#memberOf
+<http://www.w3.org/ns/org#memberOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://xmlns.com/foaf/0.1/fundedBy
 <http://xmlns.com/foaf/0.1/fundedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # https://schema.org/citation
 <https://schema.org/citation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# https://schema.org/creator
+<https://schema.org/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/familyName
+<https://schema.org/familyName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # https://schema.org/funding
 <https://schema.org/funding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/name
+<https://schema.org/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/url
+<https://schema.org/url> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # https://w3id.org/widoco/vocab#introduction
 <https://w3id.org/widoco/vocab#introduction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
@@ -180,6 +232,8 @@
 # #################################################################
 # 
 # 
+# http://schema.org/Person
+# 
 # http://www.w3.org/2004/02/skos/core#Concept
 <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 
@@ -195,6 +249,8 @@
 # 
 # http://www.w3.org/ns/prov#Entity
 <http://www.w3.org/ns/prov#Entity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://xmlns.com/foaf/0.1/Organization
 # 
 # https://w3id.org/lpto#Heterogeneity
 <https://w3id.org/lpto#Heterogeneity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -215,497 +271,497 @@
 <https://w3id.org/lpto#LPT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/lpto#LPT> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
 <https://w3id.org/lpto#LPT> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/ns/prov#Entity> .
-<https://w3id.org/lpto#LPT> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
-_:genid1 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+<https://w3id.org/lpto#LPT> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
 <http://www.w3.org/2004/02/skos/core#notation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/lpto#PairOfDatasets> .
 <https://w3id.org/lpto#LPT> <http://www.w3.org/2000/01/rdf-schema#comment> "LPT is the set of all types of problems that can be encountered when binding semantic data."@en .
 # 
 # https://w3id.org/lpto#LPT1
 <https://w3id.org/lpto#LPT1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid2 .
-_:genid2 <http://www.w3.org/2002/07/owl#hasValue> "1" .
-_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#hasValue> "1" .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT> .
 <https://w3id.org/lpto#LPT1> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1" .
 # 
 # https://w3id.org/lpto#LPT1_1
 <https://w3id.org/lpto#LPT1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT1_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid3 .
-_:genid3 <http://www.w3.org/2002/07/owl#hasValue> "1_1" .
-_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT1_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#hasValue> "1_1" .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT1_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT1> .
 <https://w3id.org/lpto#LPT1_1> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1_1" .
 # 
 # https://w3id.org/lpto#LPT1_1_1
 <https://w3id.org/lpto#LPT1_1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT1_1_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid4 .
-_:genid4 <http://www.w3.org/2002/07/owl#hasValue> "1_1_1" .
-_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT1_1_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#hasValue> "1_1_1" .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT1_1_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT1_1> .
 <https://w3id.org/lpto#LPT1_1_1> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1_1_1" .
 # 
 # https://w3id.org/lpto#LPT1_1_1_1
 <https://w3id.org/lpto#LPT1_1_1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT1_1_1_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid5 .
-_:genid5 <http://www.w3.org/2002/07/owl#hasValue> "1_1_1_1" .
-_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT1_1_1_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#hasValue> "1_1_1_1" .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT1_1_1_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT1_1_1> .
 <https://w3id.org/lpto#LPT1_1_1_1> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1_1_1_1" .
 # 
 # https://w3id.org/lpto#LPT1_1_1_2
 <https://w3id.org/lpto#LPT1_1_1_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT1_1_1_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid6 .
-_:genid6 <http://www.w3.org/2002/07/owl#hasValue> "1_1_1_2" .
-_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT1_1_1_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#hasValue> "1_1_1_2" .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT1_1_1_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT1_1_1> .
 <https://w3id.org/lpto#LPT1_1_1_2> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1_1_1_2" .
 # 
 # https://w3id.org/lpto#LPT1_1_2
 <https://w3id.org/lpto#LPT1_1_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT1_1_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid7 .
-_:genid7 <http://www.w3.org/2002/07/owl#hasValue> "1_1_2" .
-_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT1_1_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid14 .
+_:genid14 <http://www.w3.org/2002/07/owl#hasValue> "1_1_2" .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT1_1_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT1_1> .
 <https://w3id.org/lpto#LPT1_1_2> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1_1_2" .
 # 
 # https://w3id.org/lpto#LPT1_1_2_1
 <https://w3id.org/lpto#LPT1_1_2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT1_1_2_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid8 .
-_:genid8 <http://www.w3.org/2002/07/owl#hasValue> "1_1_2_1" .
-_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT1_1_2_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#hasValue> "1_1_2_1" .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT1_1_2_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT1_1_2> .
 <https://w3id.org/lpto#LPT1_1_2_1> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1_1_2_1" .
 # 
 # https://w3id.org/lpto#LPT1_1_2_2
 <https://w3id.org/lpto#LPT1_1_2_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT1_1_2_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid9 .
-_:genid9 <http://www.w3.org/2002/07/owl#hasValue> "1_1_2_2" .
-_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT1_1_2_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid16 .
+_:genid16 <http://www.w3.org/2002/07/owl#hasValue> "1_1_2_2" .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT1_1_2_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT1_1_2> .
 <https://w3id.org/lpto#LPT1_1_2_2> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1_1_2_2" .
 # 
 # https://w3id.org/lpto#LPT1_1_2_3
 <https://w3id.org/lpto#LPT1_1_2_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT1_1_2_3> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid10 .
-_:genid10 <http://www.w3.org/2002/07/owl#hasValue> "1_1_2_3" .
-_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT1_1_2_3> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#hasValue> "1_1_2_3" .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT1_1_2_3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT1_1_2> .
 <https://w3id.org/lpto#LPT1_1_2_3> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1_1_2_3" .
 # 
 # https://w3id.org/lpto#LPT1_1_2_4
 <https://w3id.org/lpto#LPT1_1_2_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT1_1_2_4> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid11 .
-_:genid11 <http://www.w3.org/2002/07/owl#hasValue> "1_1_2_4" .
-_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT1_1_2_4> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid18 .
+_:genid18 <http://www.w3.org/2002/07/owl#hasValue> "1_1_2_4" .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT1_1_2_4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT1_1_2> .
 <https://w3id.org/lpto#LPT1_1_2_4> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1_1_2_4" .
 # 
 # https://w3id.org/lpto#LPT1_1_2_5
 <https://w3id.org/lpto#LPT1_1_2_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT1_1_2_5> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid12 .
-_:genid12 <http://www.w3.org/2002/07/owl#hasValue> "1_1_2_5" .
-_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT1_1_2_5> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid19 .
+_:genid19 <http://www.w3.org/2002/07/owl#hasValue> "1_1_2_5" .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT1_1_2_5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT1_1_2> .
 <https://w3id.org/lpto#LPT1_1_2_5> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1_1_2_5" .
 # 
 # https://w3id.org/lpto#LPT1_1_3
 <https://w3id.org/lpto#LPT1_1_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT1_1_3> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid13 .
-_:genid13 <http://www.w3.org/2002/07/owl#hasValue> "1_1_3" .
-_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT1_1_3> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid20 .
+_:genid20 <http://www.w3.org/2002/07/owl#hasValue> "1_1_3" .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT1_1_3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT1_1> .
 <https://w3id.org/lpto#LPT1_1_3> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1_1_3" .
 # 
 # https://w3id.org/lpto#LPT1_2
 <https://w3id.org/lpto#LPT1_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT1_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid14 .
-_:genid14 <http://www.w3.org/2002/07/owl#hasValue> "1_2" .
-_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT1_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid21 .
+_:genid21 <http://www.w3.org/2002/07/owl#hasValue> "1_2" .
+_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT1_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT1> .
 <https://w3id.org/lpto#LPT1_2> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1_2" .
 # 
 # https://w3id.org/lpto#LPT1_2_1
 <https://w3id.org/lpto#LPT1_2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT1_2_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid15 .
-_:genid15 <http://www.w3.org/2002/07/owl#hasValue> "1_2_1" .
-_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT1_2_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid22 .
+_:genid22 <http://www.w3.org/2002/07/owl#hasValue> "1_2_1" .
+_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT1_2_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT1_2> .
 <https://w3id.org/lpto#LPT1_2_1> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1_2_1" .
 # 
 # https://w3id.org/lpto#LPT1_2_2
 <https://w3id.org/lpto#LPT1_2_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT1_2_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid16 .
-_:genid16 <http://www.w3.org/2002/07/owl#hasValue> "1_2_2" .
-_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT1_2_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid23 .
+_:genid23 <http://www.w3.org/2002/07/owl#hasValue> "1_2_2" .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT1_2_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT1_2> .
 <https://w3id.org/lpto#LPT1_2_2> <http://www.w3.org/2000/01/rdf-schema#label> "LPT1_2_2" .
 # 
 # https://w3id.org/lpto#LPT2
 <https://w3id.org/lpto#LPT2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid17 .
-_:genid17 <http://www.w3.org/2002/07/owl#hasValue> "2" .
-_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid24 .
+_:genid24 <http://www.w3.org/2002/07/owl#hasValue> "2" .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT> .
 <https://w3id.org/lpto#LPT2> <http://www.w3.org/2000/01/rdf-schema#label> "LPT2" .
 # 
 # https://w3id.org/lpto#LPT2_1
 <https://w3id.org/lpto#LPT2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT2_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid18 .
-_:genid18 <http://www.w3.org/2002/07/owl#hasValue> "2_1" .
-_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT2_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid25 .
+_:genid25 <http://www.w3.org/2002/07/owl#hasValue> "2_1" .
+_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT2_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT2> .
 <https://w3id.org/lpto#LPT2_1> <http://www.w3.org/2000/01/rdf-schema#label> "LPT2_1" .
 # 
 # https://w3id.org/lpto#LPT2_1_1
 <https://w3id.org/lpto#LPT2_1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT2_1_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid19 .
-_:genid19 <http://www.w3.org/2002/07/owl#hasValue> "2_1_1" .
-_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT2_1_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid26 .
+_:genid26 <http://www.w3.org/2002/07/owl#hasValue> "2_1_1" .
+_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT2_1_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT2_1> .
 <https://w3id.org/lpto#LPT2_1_1> <http://www.w3.org/2000/01/rdf-schema#label> "LPT2_1_1" .
 # 
 # https://w3id.org/lpto#LPT2_1_2
 <https://w3id.org/lpto#LPT2_1_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT2_1_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid20 .
-_:genid20 <http://www.w3.org/2002/07/owl#hasValue> "2_1_2" .
-_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT2_1_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid27 .
+_:genid27 <http://www.w3.org/2002/07/owl#hasValue> "2_1_2" .
+_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT2_1_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT2_1> .
 <https://w3id.org/lpto#LPT2_1_2> <http://www.w3.org/2000/01/rdf-schema#label> "LPT2_1_2" .
 # 
 # https://w3id.org/lpto#LPT2_1_3
 <https://w3id.org/lpto#LPT2_1_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT2_1_3> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid21 .
-_:genid21 <http://www.w3.org/2002/07/owl#hasValue> "2_1_3" .
-_:genid21 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT2_1_3> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid28 .
+_:genid28 <http://www.w3.org/2002/07/owl#hasValue> "2_1_3" .
+_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT2_1_3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT2_1> .
 <https://w3id.org/lpto#LPT2_1_3> <http://www.w3.org/2000/01/rdf-schema#label> "LPT2_1_3" .
 # 
 # https://w3id.org/lpto#LPT2_1_4
 <https://w3id.org/lpto#LPT2_1_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT2_1_4> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid22 .
-_:genid22 <http://www.w3.org/2002/07/owl#hasValue> "2_1_4" .
-_:genid22 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT2_1_4> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid29 .
+_:genid29 <http://www.w3.org/2002/07/owl#hasValue> "2_1_4" .
+_:genid29 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT2_1_4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT2_1> .
 <https://w3id.org/lpto#LPT2_1_4> <http://www.w3.org/2000/01/rdf-schema#label> "LPT2_1_4" .
 # 
 # https://w3id.org/lpto#LPT2_1_5
 <https://w3id.org/lpto#LPT2_1_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT2_1_5> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid23 .
-_:genid23 <http://www.w3.org/2002/07/owl#hasValue> "2_1_5" .
-_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT2_1_5> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid30 .
+_:genid30 <http://www.w3.org/2002/07/owl#hasValue> "2_1_5" .
+_:genid30 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT2_1_5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT2_1> .
 <https://w3id.org/lpto#LPT2_1_5> <http://www.w3.org/2000/01/rdf-schema#label> "LPT2_1_5" .
 # 
 # https://w3id.org/lpto#LPT2_2
 <https://w3id.org/lpto#LPT2_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT2_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid24 .
-_:genid24 <http://www.w3.org/2002/07/owl#hasValue> "2_2" .
-_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT2_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid31 .
+_:genid31 <http://www.w3.org/2002/07/owl#hasValue> "2_2" .
+_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT2_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT2> .
 <https://w3id.org/lpto#LPT2_2> <http://www.w3.org/2000/01/rdf-schema#label> "LPT2_2" .
 # 
 # https://w3id.org/lpto#LPT2_2_1
 <https://w3id.org/lpto#LPT2_2_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT2_2_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid25 .
-_:genid25 <http://www.w3.org/2002/07/owl#hasValue> "2_2_1" .
-_:genid25 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT2_2_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid32 .
+_:genid32 <http://www.w3.org/2002/07/owl#hasValue> "2_2_1" .
+_:genid32 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT2_2_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT2_2> .
 <https://w3id.org/lpto#LPT2_2_1> <http://www.w3.org/2000/01/rdf-schema#label> "LPT2_2_1" .
 # 
 # https://w3id.org/lpto#LPT2_2_2
 <https://w3id.org/lpto#LPT2_2_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT2_2_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid26 .
-_:genid26 <http://www.w3.org/2002/07/owl#hasValue> "2_2_2" .
-_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT2_2_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid33 .
+_:genid33 <http://www.w3.org/2002/07/owl#hasValue> "2_2_2" .
+_:genid33 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT2_2_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT2_2> .
 <https://w3id.org/lpto#LPT2_2_2> <http://www.w3.org/2000/01/rdf-schema#label> "LPT2_2_2" .
 # 
 # https://w3id.org/lpto#LPT2_2_3
 <https://w3id.org/lpto#LPT2_2_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT2_2_3> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid27 .
-_:genid27 <http://www.w3.org/2002/07/owl#hasValue> "2_2_3" .
-_:genid27 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT2_2_3> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid34 .
+_:genid34 <http://www.w3.org/2002/07/owl#hasValue> "2_2_3" .
+_:genid34 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT2_2_3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT2_2> .
 <https://w3id.org/lpto#LPT2_2_3> <http://www.w3.org/2000/01/rdf-schema#label> "LPT2_2_3" .
 # 
 # https://w3id.org/lpto#LPT2_2_4
 <https://w3id.org/lpto#LPT2_2_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT2_2_4> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid28 .
-_:genid28 <http://www.w3.org/2002/07/owl#hasValue> "2_2_4" .
-_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT2_2_4> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid35 .
+_:genid35 <http://www.w3.org/2002/07/owl#hasValue> "2_2_4" .
+_:genid35 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT2_2_4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT2_2> .
 <https://w3id.org/lpto#LPT2_2_4> <http://www.w3.org/2000/01/rdf-schema#label> "LPT2_2_4" .
 # 
 # https://w3id.org/lpto#LPT2_3
 <https://w3id.org/lpto#LPT2_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT2_3> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid29 .
-_:genid29 <http://www.w3.org/2002/07/owl#hasValue> "2_3" .
-_:genid29 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT2_3> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid36 .
+_:genid36 <http://www.w3.org/2002/07/owl#hasValue> "2_3" .
+_:genid36 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT2_3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT2> .
 <https://w3id.org/lpto#LPT2_3> <http://www.w3.org/2000/01/rdf-schema#label> "LPT2_3" .
 # 
 # https://w3id.org/lpto#LPT3
 <https://w3id.org/lpto#LPT3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT3> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid30 .
-_:genid30 <http://www.w3.org/2002/07/owl#hasValue> "3" .
-_:genid30 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT3> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid37 .
+_:genid37 <http://www.w3.org/2002/07/owl#hasValue> "3" .
+_:genid37 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT> .
 <https://w3id.org/lpto#LPT3> <http://www.w3.org/2000/01/rdf-schema#label> "LPT3" .
 # 
 # https://w3id.org/lpto#LPT3_1
 <https://w3id.org/lpto#LPT3_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT3_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid31 .
-_:genid31 <http://www.w3.org/2002/07/owl#hasValue> "3_1" .
-_:genid31 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT3_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid38 .
+_:genid38 <http://www.w3.org/2002/07/owl#hasValue> "3_1" .
+_:genid38 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT3_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT3> .
 <https://w3id.org/lpto#LPT3_1> <http://www.w3.org/2000/01/rdf-schema#label> "LPT3_1" .
 # 
 # https://w3id.org/lpto#LPT3_1_1
 <https://w3id.org/lpto#LPT3_1_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT3_1_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid32 .
-_:genid32 <http://www.w3.org/2002/07/owl#hasValue> "3_1_1" .
-_:genid32 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT3_1_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid39 .
+_:genid39 <http://www.w3.org/2002/07/owl#hasValue> "3_1_1" .
+_:genid39 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT3_1_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT3_1> .
 <https://w3id.org/lpto#LPT3_1_1> <http://www.w3.org/2000/01/rdf-schema#label> "LPT3_1_1" .
 # 
 # https://w3id.org/lpto#LPT3_1_2
 <https://w3id.org/lpto#LPT3_1_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT3_1_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid33 .
-_:genid33 <http://www.w3.org/2002/07/owl#hasValue> "3_1_2" .
-_:genid33 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT3_1_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid40 .
+_:genid40 <http://www.w3.org/2002/07/owl#hasValue> "3_1_2" .
+_:genid40 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT3_1_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT3_1> .
 <https://w3id.org/lpto#LPT3_1_2> <http://www.w3.org/2000/01/rdf-schema#label> "LPT3_1_2" .
 # 
 # https://w3id.org/lpto#LPT3_1_3
 <https://w3id.org/lpto#LPT3_1_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT3_1_3> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid34 .
-_:genid34 <http://www.w3.org/2002/07/owl#hasValue> "3_1_3" .
-_:genid34 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT3_1_3> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid41 .
+_:genid41 <http://www.w3.org/2002/07/owl#hasValue> "3_1_3" .
+_:genid41 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT3_1_3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT3_1> .
 <https://w3id.org/lpto#LPT3_1_3> <http://www.w3.org/2000/01/rdf-schema#label> "LPT3_1_3" .
 # 
 # https://w3id.org/lpto#LPT3_1_4
 <https://w3id.org/lpto#LPT3_1_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT3_1_4> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid35 .
-_:genid35 <http://www.w3.org/2002/07/owl#hasValue> "3_1_4" .
-_:genid35 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT3_1_4> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid42 .
+_:genid42 <http://www.w3.org/2002/07/owl#hasValue> "3_1_4" .
+_:genid42 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT3_1_4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT3_1> .
 <https://w3id.org/lpto#LPT3_1_4> <http://www.w3.org/2000/01/rdf-schema#label> "LPT3_1_4" .
 # 
 # https://w3id.org/lpto#LPT3_1_5
 <https://w3id.org/lpto#LPT3_1_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT3_1_5> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid36 .
-_:genid36 <http://www.w3.org/2002/07/owl#hasValue> "3_1_5" .
-_:genid36 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT3_1_5> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid43 .
+_:genid43 <http://www.w3.org/2002/07/owl#hasValue> "3_1_5" .
+_:genid43 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT3_1_5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT3_1> .
 <https://w3id.org/lpto#LPT3_1_5> <http://www.w3.org/2000/01/rdf-schema#label> "LPT3_1_5" .
 # 
 # https://w3id.org/lpto#LPT3_2
 <https://w3id.org/lpto#LPT3_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT3_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid37 .
-_:genid37 <http://www.w3.org/2002/07/owl#hasValue> "3_2" .
-_:genid37 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT3_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid44 .
+_:genid44 <http://www.w3.org/2002/07/owl#hasValue> "3_2" .
+_:genid44 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT3_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT3> .
 <https://w3id.org/lpto#LPT3_2> <http://www.w3.org/2000/01/rdf-schema#label> "LPT3_2" .
 # 
 # https://w3id.org/lpto#LPT4
 <https://w3id.org/lpto#LPT4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT4> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid38 .
-_:genid38 <http://www.w3.org/2002/07/owl#hasValue> "4" .
-_:genid38 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT4> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid45 .
+_:genid45 <http://www.w3.org/2002/07/owl#hasValue> "4" .
+_:genid45 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT> .
 <https://w3id.org/lpto#LPT4> <http://www.w3.org/2000/01/rdf-schema#label> "LPT4" .
 # 
 # https://w3id.org/lpto#LPT4_1
 <https://w3id.org/lpto#LPT4_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT4_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid39 .
-_:genid39 <http://www.w3.org/2002/07/owl#hasValue> "4_1" .
-_:genid39 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT4_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid46 .
+_:genid46 <http://www.w3.org/2002/07/owl#hasValue> "4_1" .
+_:genid46 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT4_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT4> .
 <https://w3id.org/lpto#LPT4_1> <http://www.w3.org/2000/01/rdf-schema#label> "LPT4_1" .
 # 
 # https://w3id.org/lpto#LPT4_2
 <https://w3id.org/lpto#LPT4_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT4_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid40 .
-_:genid40 <http://www.w3.org/2002/07/owl#hasValue> "4_2" .
-_:genid40 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT4_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid47 .
+_:genid47 <http://www.w3.org/2002/07/owl#hasValue> "4_2" .
+_:genid47 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT4_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT4> .
 <https://w3id.org/lpto#LPT4_2> <http://www.w3.org/2000/01/rdf-schema#label> "LPT4_2" .
 # 
 # https://w3id.org/lpto#LPT5
 <https://w3id.org/lpto#LPT5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT5> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid41 .
-_:genid41 <http://www.w3.org/2002/07/owl#hasValue> "5" .
-_:genid41 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT5> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid48 .
+_:genid48 <http://www.w3.org/2002/07/owl#hasValue> "5" .
+_:genid48 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT> .
 <https://w3id.org/lpto#LPT5> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5" .
 # 
 # https://w3id.org/lpto#LPT5_1
 <https://w3id.org/lpto#LPT5_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT5_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid42 .
-_:genid42 <http://www.w3.org/2002/07/owl#hasValue> "5_1" .
-_:genid42 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT5_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid49 .
+_:genid49 <http://www.w3.org/2002/07/owl#hasValue> "5_1" .
+_:genid49 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT5_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT5> .
 <https://w3id.org/lpto#LPT5_1> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5_1" .
 # 
 # https://w3id.org/lpto#LPT5_2
 <https://w3id.org/lpto#LPT5_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT5_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid43 .
-_:genid43 <http://www.w3.org/2002/07/owl#hasValue> "5_2" .
-_:genid43 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT5_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid50 .
+_:genid50 <http://www.w3.org/2002/07/owl#hasValue> "5_2" .
+_:genid50 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT5_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT5> .
 <https://w3id.org/lpto#LPT5_2> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5_2" .
 # 
 # https://w3id.org/lpto#LPT5_3
 <https://w3id.org/lpto#LPT5_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT5_3> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid44 .
-_:genid44 <http://www.w3.org/2002/07/owl#hasValue> "5_3" .
-_:genid44 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT5_3> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid51 .
+_:genid51 <http://www.w3.org/2002/07/owl#hasValue> "5_3" .
+_:genid51 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT5_3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT5> .
 <https://w3id.org/lpto#LPT5_3> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5_3" .
 # 
 # https://w3id.org/lpto#LPT5_4
 <https://w3id.org/lpto#LPT5_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT5_4> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid45 .
-_:genid45 <http://www.w3.org/2002/07/owl#hasValue> "5_4" .
-_:genid45 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT5_4> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid52 .
+_:genid52 <http://www.w3.org/2002/07/owl#hasValue> "5_4" .
+_:genid52 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT5_4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT5> .
 <https://w3id.org/lpto#LPT5_4> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5_4" .
 # 
 # https://w3id.org/lpto#LPT5_4_1
 <https://w3id.org/lpto#LPT5_4_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT5_4_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid46 .
-_:genid46 <http://www.w3.org/2002/07/owl#hasValue> "5_4_1" .
-_:genid46 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT5_4_1> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid53 .
+_:genid53 <http://www.w3.org/2002/07/owl#hasValue> "5_4_1" .
+_:genid53 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT5_4_1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT5_4> .
 <https://w3id.org/lpto#LPT5_4_1> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5_4_1" .
 # 
 # https://w3id.org/lpto#LPT5_4_2
 <https://w3id.org/lpto#LPT5_4_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT5_4_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid47 .
-_:genid47 <http://www.w3.org/2002/07/owl#hasValue> "5_4_2" .
-_:genid47 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT5_4_2> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid54 .
+_:genid54 <http://www.w3.org/2002/07/owl#hasValue> "5_4_2" .
+_:genid54 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT5_4_2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT5_4> .
 <https://w3id.org/lpto#LPT5_4_2> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5_4_2" .
 # 
 # https://w3id.org/lpto#LPT5_4_3
 <https://w3id.org/lpto#LPT5_4_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT5_4_3> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid48 .
-_:genid48 <http://www.w3.org/2002/07/owl#hasValue> "5_4_3" .
-_:genid48 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT5_4_3> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid55 .
+_:genid55 <http://www.w3.org/2002/07/owl#hasValue> "5_4_3" .
+_:genid55 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT5_4_3> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT5_4> .
 <https://w3id.org/lpto#LPT5_4_3> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5_4_3" .
 # 
 # https://w3id.org/lpto#LPT5_4_4
 <https://w3id.org/lpto#LPT5_4_4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT5_4_4> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid49 .
-_:genid49 <http://www.w3.org/2002/07/owl#hasValue> "5_4_4" .
-_:genid49 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT5_4_4> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid56 .
+_:genid56 <http://www.w3.org/2002/07/owl#hasValue> "5_4_4" .
+_:genid56 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT5_4_4> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT5_4> .
 <https://w3id.org/lpto#LPT5_4_4> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5_4_4" .
 # 
 # https://w3id.org/lpto#LPT5_4_5
 <https://w3id.org/lpto#LPT5_4_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT5_4_5> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid50 .
-_:genid50 <http://www.w3.org/2002/07/owl#hasValue> "5_4_5" .
-_:genid50 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT5_4_5> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid57 .
+_:genid57 <http://www.w3.org/2002/07/owl#hasValue> "5_4_5" .
+_:genid57 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT5_4_5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT5_4> .
 <https://w3id.org/lpto#LPT5_4_5> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5_4_5" .
 # 
 # https://w3id.org/lpto#LPT5_4_6
 <https://w3id.org/lpto#LPT5_4_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT5_4_6> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid51 .
-_:genid51 <http://www.w3.org/2002/07/owl#hasValue> "5_4_6" .
-_:genid51 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT5_4_6> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid58 .
+_:genid58 <http://www.w3.org/2002/07/owl#hasValue> "5_4_6" .
+_:genid58 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT5_4_6> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT5_4> .
 <https://w3id.org/lpto#LPT5_4_6> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5_4_6" .
 # 
 # https://w3id.org/lpto#LPT5_5
 <https://w3id.org/lpto#LPT5_5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT5_5> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid52 .
-_:genid52 <http://www.w3.org/2002/07/owl#hasValue> "5_5" .
-_:genid52 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT5_5> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid59 .
+_:genid59 <http://www.w3.org/2002/07/owl#hasValue> "5_5" .
+_:genid59 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT5_5> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT5> .
 <https://w3id.org/lpto#LPT5_5> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5_5" .
 # 
 # https://w3id.org/lpto#LPT5_6
 <https://w3id.org/lpto#LPT5_6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT5_6> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid53 .
-_:genid53 <http://www.w3.org/2002/07/owl#hasValue> "5_6" .
-_:genid53 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT5_6> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid60 .
+_:genid60 <http://www.w3.org/2002/07/owl#hasValue> "5_6" .
+_:genid60 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT5_6> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT5> .
 <https://w3id.org/lpto#LPT5_6> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5_6" .
 # 
 # https://w3id.org/lpto#LPT5_7
 <https://w3id.org/lpto#LPT5_7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT5_7> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid54 .
-_:genid54 <http://www.w3.org/2002/07/owl#hasValue> "5_7" .
-_:genid54 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT5_7> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid61 .
+_:genid61 <http://www.w3.org/2002/07/owl#hasValue> "5_7" .
+_:genid61 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT5_7> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT5> .
 <https://w3id.org/lpto#LPT5_7> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5_7" .
 # 
 # https://w3id.org/lpto#LPT5_8
 <https://w3id.org/lpto#LPT5_8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/lpto#LPT5_8> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid55 .
-_:genid55 <http://www.w3.org/2002/07/owl#hasValue> "5_8" .
-_:genid55 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
-_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://w3id.org/lpto#LPT5_8> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid62 .
+_:genid62 <http://www.w3.org/2002/07/owl#hasValue> "5_8" .
+_:genid62 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2004/02/skos/core#notation> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <https://w3id.org/lpto#LPT5_8> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/lpto#LPT5> .
 <https://w3id.org/lpto#LPT5_8> <http://www.w3.org/2000/01/rdf-schema#label> "LPT5_8" .
 # 

@@ -19,7 +19,6 @@
 		By classifying LPTs, we provide a framework for understanding and addressing the challenges associated with semantic data linking.
 		It can be used to develop new solutions based on existing modularized tools addressing specific LPTs, thus improving the overall efficiency of data linking."""@en ;
                          <http://purl.org/dc/terms/created> "January 25th, 2024"@en ;
-                         <http://purl.org/dc/terms/creator> "Raphael Conde Salazar"@en ;
                          <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/2.0/> ;
                          <http://purl.org/ontology/bibo/status> <http://purl.org/ontology/bibo/status/stable> ;
                          <http://purl.org/vocab/vann/preferredNamespacePrefix> "lpto"@en ;
@@ -27,12 +26,52 @@
                          rdfs:comment "An ontology designed to illustrate the types of linking problems (LPTs) to help the data linking community."@en ;
                          rdfs:label "Ontology of LPTs" ;
                          owl:versionInfo "1.0.0" ;
-                         <http://xmlns.com/foaf/0.1/fundedBy> <https://example.org/fundingOrganization> ;
+                         <http://xmlns.com/foaf/0.1/fundedBy> <https://anr.fr/> ;
                          <https://schema.org/citation> "Cite this vocabulary as: Raphaël Conde Salazar , Clément Jonquet , Danai Symeonidou; Classification of Linking Problem Types for linking semantic data; DOI: 10.3233/SSW230014"@en ;
+                         <https://schema.org/creator> _:genid1 ,
+                                                      _:genid3 ,
+                                                      _:genid6 ;
                          <https://schema.org/funding> <https://anr.fr/Projet-ANR-21-CE23-0019> ;
                          <https://w3id.org/widoco/vocab#introduction> """Our classification is based on the description of heterogeneity reported in the literature and identifies five main types
 		of linking problems: predicate value problems, predicate problems, class problems, subgraph problems, and graph problems."""@en ;
                          <https://w3id.org/widoco/vocab#rdfxmlSerialization> "https://w3id.org/lpto/ontology.xml"^^xsd:anyURI .
+
+_:genid1 rdf:type <http://schema.org/Person> ;
+          <http://www.w3.org/ns/org#memberOf> _:genid2 ;
+          <https://schema.org/familyName> "Conde Salazar"@en ,
+                                          "Conde Salazar"@fr ;
+          <https://schema.org/name> "Raphael Conde Salazar"@en ,
+                                    "Raphaël Conde Salazar"@fr ;
+          <https://schema.org/url> <https://orcid.org/0000-0002-6926-5299> .
+
+_:genid3 rdf:type <http://schema.org/Person> ;
+          <http://www.w3.org/ns/org#memberOf> _:genid4 ,
+                                              _:genid5 ;
+          <https://schema.org/name> "Clement Jonquet"@en ,
+                                    "Clément Jonquet"@fr ;
+          <https://schema.org/url> <https://orcid.org/0000-0002-2404-1582> .
+
+_:genid6 rdf:type <http://schema.org/Person> ;
+          <http://www.w3.org/ns/org#memberOf> _:genid7 ;
+          <https://schema.org/name> "Danai Simeonidou"@en ,
+                                    "Danaï Simeonidou"@fr ;
+          <https://schema.org/url> <https://orcid.org/0000-0003-1152-5200> .
+
+_:genid2 rdf:type <http://xmlns.com/foaf/0.1/Organization> ;
+          <http://xmlns.com/foaf/0.1/name> "MISTEA, University of Montpellier, INRAE & Institut Agro, France" ;
+          <https://schema.org/url> "https://mistea.montpellier.hub.inrae.fr/" .
+
+_:genid4 rdf:type <http://xmlns.com/foaf/0.1/Organization> ;
+          <http://xmlns.com/foaf/0.1/name> "MISTEA, University of Montpellier, INRAE & Institut Agro, France" ;
+          <https://schema.org/url> "https://mistea.montpellier.hub.inrae.fr/" .
+
+_:genid5 rdf:type <http://xmlns.com/foaf/0.1/Organization> ;
+          <http://xmlns.com/foaf/0.1/name> "LIRMM, University of Montpellier & CNRS, France" ;
+          <https://schema.org/url> "https://www.lirmm.fr/" .
+
+_:genid7 rdf:type <http://xmlns.com/foaf/0.1/Organization> ;
+          <http://xmlns.com/foaf/0.1/name> "MISTEA, University of Montpellier, INRAE & Institut Agro, France" ;
+          <https://schema.org/url> "https://mistea.montpellier.hub.inrae.fr/" .
 
 #################################################################
 #    Annotation properties
@@ -158,16 +197,40 @@ rdfs:label rdf:type owl:AnnotationProperty .
 <http://www.w3.org/ns/dcat#/mediaType> rdf:type owl:AnnotationProperty .
 
 
+###  http://www.w3.org/ns/org#memberOf
+<http://www.w3.org/ns/org#memberOf> rdf:type owl:AnnotationProperty .
+
+
 ###  http://xmlns.com/foaf/0.1/fundedBy
 <http://xmlns.com/foaf/0.1/fundedBy> rdf:type owl:AnnotationProperty .
+
+
+###  http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> rdf:type owl:AnnotationProperty .
 
 
 ###  https://schema.org/citation
 <https://schema.org/citation> rdf:type owl:AnnotationProperty .
 
 
+###  https://schema.org/creator
+<https://schema.org/creator> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/familyName
+<https://schema.org/familyName> rdf:type owl:AnnotationProperty .
+
+
 ###  https://schema.org/funding
 <https://schema.org/funding> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/name
+<https://schema.org/name> rdf:type owl:AnnotationProperty .
+
+
+###  https://schema.org/url
+<https://schema.org/url> rdf:type owl:AnnotationProperty .
 
 
 ###  https://w3id.org/widoco/vocab#introduction
@@ -218,6 +281,10 @@ rdfs:label rdf:type owl:AnnotationProperty .
 #    Classes
 #################################################################
 
+###  http://schema.org/Person
+<http://schema.org/Person> rdf:type owl:Class .
+
+
 ###  http://www.w3.org/2004/02/skos/core#Concept
 <http://www.w3.org/2004/02/skos/core#Concept> rdf:type owl:Class .
 
@@ -236,6 +303,10 @@ rdfs:label rdf:type owl:AnnotationProperty .
 
 ###  http://www.w3.org/ns/prov#Entity
 <http://www.w3.org/ns/prov#Entity> rdf:type owl:Class .
+
+
+###  http://xmlns.com/foaf/0.1/Organization
+<http://xmlns.com/foaf/0.1/Organization> rdf:type owl:Class .
 
 
 ###  https://w3id.org/lpto#Heterogeneity

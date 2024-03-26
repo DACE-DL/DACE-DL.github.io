@@ -2,6 +2,7 @@
 <rdf:RDF xmlns="https://w3id.org/lpto#"
      xml:base="https://w3id.org/lpto"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:org="http://www.w3.org/ns/org#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
@@ -29,7 +30,6 @@
 		By classifying LPTs, we provide a framework for understanding and addressing the challenges associated with semantic data linking.
 		It can be used to develop new solutions based on existing modularized tools addressing specific LPTs, thus improving the overall efficiency of data linking.</terms:abstract>
         <terms:created xml:lang="en">January 25th, 2024</terms:created>
-        <terms:creator xml:lang="en">Raphael Conde Salazar</terms:creator>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/2.0/"/>
         <bibo:status rdf:resource="http://purl.org/ontology/bibo/status/stable"/>
         <vann:preferredNamespacePrefix xml:lang="en">lpto</vann:preferredNamespacePrefix>
@@ -37,13 +37,60 @@
         <rdfs:comment xml:lang="en">An ontology designed to illustrate the types of linking problems (LPTs) to help the data linking community.</rdfs:comment>
         <rdfs:label>Ontology of LPTs</rdfs:label>
         <owl:versionInfo>1.0.0</owl:versionInfo>
-        <foaf:fundedBy rdf:resource="https://example.org/fundingOrganization"/>
+        <foaf:fundedBy rdf:resource="https://anr.fr/"/>
         <schema:citation xml:lang="en">Cite this vocabulary as: Raphaël Conde Salazar , Clément Jonquet , Danai Symeonidou; Classification of Linking Problem Types for linking semantic data; DOI: 10.3233/SSW230014</schema:citation>
+        <schema:creator rdf:nodeID="genid1"/>
+        <schema:creator rdf:nodeID="genid3"/>
+        <schema:creator rdf:nodeID="genid6"/>
         <schema:funding rdf:resource="https://anr.fr/Projet-ANR-21-CE23-0019"/>
         <vocab:introduction xml:lang="en">Our classification is based on the description of heterogeneity reported in the literature and identifies five main types
 		of linking problems: predicate value problems, predicate problems, class problems, subgraph problems, and graph problems.</vocab:introduction>
         <vocab:rdfxmlSerialization rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://w3id.org/lpto/ontology.xml</vocab:rdfxmlSerialization>
     </owl:Ontology>
+    <rdf:Description rdf:nodeID="genid1">
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <org:memberOf rdf:nodeID="genid2"/>
+        <schema:familyName xml:lang="en">Conde Salazar</schema:familyName>
+        <schema:familyName xml:lang="fr">Conde Salazar</schema:familyName>
+        <schema:name xml:lang="en">Raphael Conde Salazar</schema:name>
+        <schema:name xml:lang="fr">Raphaël Conde Salazar</schema:name>
+        <schema:url rdf:resource="https://orcid.org/0000-0002-6926-5299"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid3">
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <org:memberOf rdf:nodeID="genid4"/>
+        <org:memberOf rdf:nodeID="genid5"/>
+        <schema:name xml:lang="en">Clement Jonquet</schema:name>
+        <schema:name xml:lang="fr">Clément Jonquet</schema:name>
+        <schema:url rdf:resource="https://orcid.org/0000-0002-2404-1582"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid6">
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <org:memberOf rdf:nodeID="genid7"/>
+        <schema:name xml:lang="en">Danai Simeonidou</schema:name>
+        <schema:name xml:lang="fr">Danaï Simeonidou</schema:name>
+        <schema:url rdf:resource="https://orcid.org/0000-0003-1152-5200"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid2">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <foaf:name>MISTEA, University of Montpellier, INRAE &amp; Institut Agro, France</foaf:name>
+        <schema:url>https://mistea.montpellier.hub.inrae.fr/</schema:url>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid4">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <foaf:name>MISTEA, University of Montpellier, INRAE &amp; Institut Agro, France</foaf:name>
+        <schema:url>https://mistea.montpellier.hub.inrae.fr/</schema:url>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid5">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <foaf:name>LIRMM, University of Montpellier &amp; CNRS, France</foaf:name>
+        <schema:url>https://www.lirmm.fr/</schema:url>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid7">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <foaf:name>MISTEA, University of Montpellier, INRAE &amp; Institut Agro, France</foaf:name>
+        <schema:url>https://mistea.montpellier.hub.inrae.fr/</schema:url>
+    </rdf:Description>
     
 
 
@@ -269,10 +316,24 @@
     
 
 
+    <!-- http://www.w3.org/ns/org#memberOf -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/org#memberOf"/>
+    
+
+
     <!-- http://xmlns.com/foaf/0.1/fundedBy -->
 
 
     <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/fundedBy"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
     
 
 
@@ -283,10 +344,38 @@
     
 
 
+    <!-- https://schema.org/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/creator"/>
+    
+
+
+    <!-- https://schema.org/familyName -->
+
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/familyName"/>
+    
+
+
     <!-- https://schema.org/funding -->
 
 
     <owl:AnnotationProperty rdf:about="https://schema.org/funding"/>
+    
+
+
+    <!-- https://schema.org/name -->
+
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/name"/>
+    
+
+
+    <!-- https://schema.org/url -->
+
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/url"/>
     
 
 
@@ -389,6 +478,13 @@
     
 
 
+    <!-- http://schema.org/Person -->
+
+
+    <owl:Class rdf:about="http://schema.org/Person"/>
+    
+
+
     <!-- http://www.w3.org/2004/02/skos/core#Concept -->
 
 
@@ -419,6 +515,13 @@
 
 
     <owl:Class rdf:about="http://www.w3.org/ns/prov#Entity"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Organization -->
+
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Organization"/>
     
 
 
