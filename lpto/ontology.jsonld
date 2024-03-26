@@ -119,7 +119,7 @@
     "@id" : "http://xmlns.com/foaf/0.1/Organization"
   } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
-    "@value" : "MISTEA, University of Montpellier, INRAE & Institut Agro, France"
+    "@value" : "MISTEA, University of Montpellier, INRAE ; Institut Agro, France"
   } ],
   "https://schema.org/url" : [ {
     "@value" : "https://mistea.montpellier.hub.inrae.fr/"
@@ -330,7 +330,7 @@
     "@id" : "http://xmlns.com/foaf/0.1/Organization"
   } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
-    "@value" : "MISTEA, University of Montpellier, INRAE & Institut Agro, France"
+    "@value" : "MISTEA, University of Montpellier, INRAE ; Institut Agro, France"
   } ],
   "https://schema.org/url" : [ {
     "@value" : "https://mistea.montpellier.hub.inrae.fr/"
@@ -431,7 +431,7 @@
     "@id" : "http://xmlns.com/foaf/0.1/Organization"
   } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
-    "@value" : "LIRMM, University of Montpellier & CNRS, France"
+    "@value" : "LIRMM, University of Montpellier ; CNRS, France"
   } ],
   "https://schema.org/url" : [ {
     "@value" : "https://www.lirmm.fr/"
@@ -577,7 +577,7 @@
     "@id" : "http://xmlns.com/foaf/0.1/Organization"
   } ],
   "http://xmlns.com/foaf/0.1/name" : [ {
-    "@value" : "MISTEA, University of Montpellier, INRAE & Institut Agro, France"
+    "@value" : "MISTEA, University of Montpellier, INRAE ; Institut Agro, France"
   } ],
   "https://schema.org/url" : [ {
     "@value" : "https://mistea.montpellier.hub.inrae.fr/"
@@ -644,6 +644,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/ontology/bibo/doi",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://purl.org/ontology/bibo/status",
@@ -776,7 +779,10 @@
     "@value" : "January 25th, 2024"
   } ],
   "http://purl.org/dc/terms/license" : [ {
-    "@id" : "http://creativecommons.org/licenses/by/2.0/"
+    "@id" : "http://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://purl.org/ontology/bibo/doi" : [ {
+    "@id" : "https://doi.org/10.57745/OQ323Z"
   } ],
   "http://purl.org/ontology/bibo/status" : [ {
     "@id" : "http://purl.org/ontology/bibo/status/stable"

@@ -5,7 +5,8 @@
 <https://w3id.org/lpto> <http://purl.org/dc/elements/1.1/title> "Ontology of LPTs"@en .
 <https://w3id.org/lpto> <http://purl.org/dc/terms/abstract> "As the number of RDF datasets published on the semantic web continues to grow,\n\t\tit becomes increasingly important to efficiently link similar entities between these datasets. However,\n\t\tthe performance of existing data linking tools, often developed for general purposes, seems to have reached a plateau,\n\t\tsuggesting the need for more modular and efficient solutions. We propose-and formalize in OWL-a classification of the different Linking Problem Types (LPTs) to help\n\t\tthe linked data community identify upstream the problems and develop more efficient solutions.\n\t\tBy classifying LPTs, we provide a framework for understanding and addressing the challenges associated with semantic data linking.\n\t\tIt can be used to develop new solutions based on existing modularized tools addressing specific LPTs, thus improving the overall efficiency of data linking."@en .
 <https://w3id.org/lpto> <http://purl.org/dc/terms/created> "January 25th, 2024"@en .
-<https://w3id.org/lpto> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/2.0/> .
+<https://w3id.org/lpto> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0/> .
+<https://w3id.org/lpto> <http://purl.org/ontology/bibo/doi> <https://doi.org/10.57745/OQ323Z> .
 <https://w3id.org/lpto> <http://purl.org/ontology/bibo/status> <http://purl.org/ontology/bibo/status/stable> .
 <https://w3id.org/lpto> <http://purl.org/vocab/vann/preferredNamespacePrefix> "lpto"@en .
 <https://w3id.org/lpto> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/lpto#" .
@@ -22,7 +23,7 @@ _:genid1 <https://schema.org/familyName> "Conde Salazar"@fr .
 _:genid1 <https://schema.org/familyName> "Conde Salazar"@en .
 _:genid1 <http://www.w3.org/ns/org#memberOf> _:genid2 .
 _:genid2 <https://schema.org/url> "https://mistea.montpellier.hub.inrae.fr/" .
-_:genid2 <http://xmlns.com/foaf/0.1/name> "MISTEA, University of Montpellier, INRAE & Institut Agro, France" .
+_:genid2 <http://xmlns.com/foaf/0.1/name> "MISTEA, University of Montpellier, INRAE ; Institut Agro, France" .
 _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 <http://xmlns.com/foaf/0.1/Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
@@ -33,11 +34,11 @@ _:genid3 <https://schema.org/name> "Clément Jonquet"@fr .
 _:genid3 <https://schema.org/name> "Clement Jonquet"@en .
 _:genid3 <http://www.w3.org/ns/org#memberOf> _:genid5 .
 _:genid5 <https://schema.org/url> "https://www.lirmm.fr/" .
-_:genid5 <http://xmlns.com/foaf/0.1/name> "LIRMM, University of Montpellier & CNRS, France" .
+_:genid5 <http://xmlns.com/foaf/0.1/name> "LIRMM, University of Montpellier ; CNRS, France" .
 _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 _:genid3 <http://www.w3.org/ns/org#memberOf> _:genid4 .
 _:genid4 <https://schema.org/url> "https://mistea.montpellier.hub.inrae.fr/" .
-_:genid4 <http://xmlns.com/foaf/0.1/name> "MISTEA, University of Montpellier, INRAE & Institut Agro, France" .
+_:genid4 <http://xmlns.com/foaf/0.1/name> "MISTEA, University of Montpellier, INRAE ; Institut Agro, France" .
 _:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://w3id.org/lpto> <https://schema.org/creator> _:genid6 .
@@ -46,7 +47,7 @@ _:genid6 <https://schema.org/name> "Danaï Simeonidou"@fr .
 _:genid6 <https://schema.org/name> "Danai Simeonidou"@en .
 _:genid6 <http://www.w3.org/ns/org#memberOf> _:genid7 .
 _:genid7 <https://schema.org/url> "https://mistea.montpellier.hub.inrae.fr/" .
-_:genid7 <http://xmlns.com/foaf/0.1/name> "MISTEA, University of Montpellier, INRAE & Institut Agro, France" .
+_:genid7 <http://xmlns.com/foaf/0.1/name> "MISTEA, University of Montpellier, INRAE ; Institut Agro, France" .
 _:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> .
 _:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
 <https://w3id.org/lpto> <https://schema.org/funding> <https://anr.fr/Projet-ANR-21-CE23-0019> .
@@ -105,6 +106,9 @@ _:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Pe
 # 
 # http://purl.org/dc/terms/title
 <http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/ontology/bibo/doi
+<http://purl.org/ontology/bibo/doi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
 # http://purl.org/ontology/bibo/status
 <http://purl.org/ontology/bibo/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .

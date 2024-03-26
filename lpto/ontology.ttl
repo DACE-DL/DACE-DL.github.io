@@ -19,7 +19,8 @@
 		By classifying LPTs, we provide a framework for understanding and addressing the challenges associated with semantic data linking.
 		It can be used to develop new solutions based on existing modularized tools addressing specific LPTs, thus improving the overall efficiency of data linking."""@en ;
                          <http://purl.org/dc/terms/created> "January 25th, 2024"@en ;
-                         <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/2.0/> ;
+                         <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0/> ;
+                         <http://purl.org/ontology/bibo/doi> <https://doi.org/10.57745/OQ323Z> ;
                          <http://purl.org/ontology/bibo/status> <http://purl.org/ontology/bibo/status/stable> ;
                          <http://purl.org/vocab/vann/preferredNamespacePrefix> "lpto"@en ;
                          <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/lpto#" ;
@@ -58,19 +59,19 @@ _:genid6 rdf:type <http://schema.org/Person> ;
           <https://schema.org/url> <https://orcid.org/0000-0003-1152-5200> .
 
 _:genid2 rdf:type <http://xmlns.com/foaf/0.1/Organization> ;
-          <http://xmlns.com/foaf/0.1/name> "MISTEA, University of Montpellier, INRAE & Institut Agro, France" ;
+          <http://xmlns.com/foaf/0.1/name> "MISTEA, University of Montpellier, INRAE ; Institut Agro, France" ;
           <https://schema.org/url> "https://mistea.montpellier.hub.inrae.fr/" .
 
 _:genid4 rdf:type <http://xmlns.com/foaf/0.1/Organization> ;
-          <http://xmlns.com/foaf/0.1/name> "MISTEA, University of Montpellier, INRAE & Institut Agro, France" ;
+          <http://xmlns.com/foaf/0.1/name> "MISTEA, University of Montpellier, INRAE ; Institut Agro, France" ;
           <https://schema.org/url> "https://mistea.montpellier.hub.inrae.fr/" .
 
 _:genid5 rdf:type <http://xmlns.com/foaf/0.1/Organization> ;
-          <http://xmlns.com/foaf/0.1/name> "LIRMM, University of Montpellier & CNRS, France" ;
+          <http://xmlns.com/foaf/0.1/name> "LIRMM, University of Montpellier ; CNRS, France" ;
           <https://schema.org/url> "https://www.lirmm.fr/" .
 
 _:genid7 rdf:type <http://xmlns.com/foaf/0.1/Organization> ;
-          <http://xmlns.com/foaf/0.1/name> "MISTEA, University of Montpellier, INRAE & Institut Agro, France" ;
+          <http://xmlns.com/foaf/0.1/name> "MISTEA, University of Montpellier, INRAE ; Institut Agro, France" ;
           <https://schema.org/url> "https://mistea.montpellier.hub.inrae.fr/" .
 
 #################################################################
@@ -135,6 +136,10 @@ _:genid7 rdf:type <http://xmlns.com/foaf/0.1/Organization> ;
 
 ###  http://purl.org/dc/terms/title
 <http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/ontology/bibo/doi
+<http://purl.org/ontology/bibo/doi> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/ontology/bibo/status
