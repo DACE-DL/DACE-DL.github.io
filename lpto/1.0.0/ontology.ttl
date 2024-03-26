@@ -10,7 +10,7 @@
                          owl:versionIRI <https://w3id.org/lpto/1.0.0> ;
                          owl:imports <http://www.w3.org/2000/01/rdf-schema> ;
                          <http://purl.org/dc/elements/1.1/description> "Ontology of LPT classification"@en ;
-                         <http://purl.org/dc/elements/1.1/title> "Ontology of LPTs"@en ;
+                         <http://purl.org/dc/elements/1.1/title> "LPTO"@en ;
                          <http://purl.org/dc/terms/abstract> """As the number of RDF datasets published on the semantic web continues to grow,
 		it becomes increasingly important to efficiently link similar entities between these datasets. However,
 		the performance of existing data linking tools, often developed for general purposes, seems to have reached a plateau,
@@ -21,9 +21,9 @@
                          <http://purl.org/dc/terms/created> "January 25th, 2024"@en ;
                          <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0/> ;
                          <http://purl.org/ontology/bibo/doi> <https://doi.org/10.57745/OQ323Z> ;
-                         <http://purl.org/ontology/bibo/status> <http://purl.org/ontology/bibo/status/stable> ;
+                         <http://purl.org/ontology/bibo/status> <http://purl.org/ontology/bibo/status/draft> ;
                          <http://purl.org/vocab/vann/preferredNamespacePrefix> "lpto"@en ;
-                         <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/lpto#" ;
+                         <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/lpto" ;
                          rdfs:comment "An ontology designed to illustrate the types of linking problems (LPTs) to help the data linking community."@en ;
                          rdfs:label "Ontology of LPTs" ;
                          owl:versionInfo "1.0.0" ;

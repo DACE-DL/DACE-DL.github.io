@@ -2,14 +2,14 @@
 <https://w3id.org/lpto> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/lpto/1.0.0> .
 <https://w3id.org/lpto> <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2000/01/rdf-schema> .
 <https://w3id.org/lpto> <http://purl.org/dc/elements/1.1/description> "Ontology of LPT classification"@en .
-<https://w3id.org/lpto> <http://purl.org/dc/elements/1.1/title> "Ontology of LPTs"@en .
+<https://w3id.org/lpto> <http://purl.org/dc/elements/1.1/title> "LPTO"@en .
 <https://w3id.org/lpto> <http://purl.org/dc/terms/abstract> "As the number of RDF datasets published on the semantic web continues to grow,\n\t\tit becomes increasingly important to efficiently link similar entities between these datasets. However,\n\t\tthe performance of existing data linking tools, often developed for general purposes, seems to have reached a plateau,\n\t\tsuggesting the need for more modular and efficient solutions. We propose-and formalize in OWL-a classification of the different Linking Problem Types (LPTs) to help\n\t\tthe linked data community identify upstream the problems and develop more efficient solutions.\n\t\tBy classifying LPTs, we provide a framework for understanding and addressing the challenges associated with semantic data linking.\n\t\tIt can be used to develop new solutions based on existing modularized tools addressing specific LPTs, thus improving the overall efficiency of data linking."@en .
 <https://w3id.org/lpto> <http://purl.org/dc/terms/created> "January 25th, 2024"@en .
 <https://w3id.org/lpto> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/4.0/> .
 <https://w3id.org/lpto> <http://purl.org/ontology/bibo/doi> <https://doi.org/10.57745/OQ323Z> .
-<https://w3id.org/lpto> <http://purl.org/ontology/bibo/status> <http://purl.org/ontology/bibo/status/stable> .
+<https://w3id.org/lpto> <http://purl.org/ontology/bibo/status> <http://purl.org/ontology/bibo/status/draft> .
 <https://w3id.org/lpto> <http://purl.org/vocab/vann/preferredNamespacePrefix> "lpto"@en .
-<https://w3id.org/lpto> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/lpto#" .
+<https://w3id.org/lpto> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/lpto" .
 <https://w3id.org/lpto> <http://www.w3.org/2000/01/rdf-schema#comment> "An ontology designed to illustrate the types of linking problems (LPTs) to help the data linking community."@en .
 <https://w3id.org/lpto> <http://www.w3.org/2000/01/rdf-schema#label> "Ontology of LPTs" .
 <https://w3id.org/lpto> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0" .

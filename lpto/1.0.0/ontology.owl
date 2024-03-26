@@ -21,7 +21,7 @@
         <owl:versionIRI rdf:resource="https://w3id.org/lpto/1.0.0"/>
         <owl:imports rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
         <dc:description xml:lang="en">Ontology of LPT classification</dc:description>
-        <dc:title xml:lang="en">Ontology of LPTs</dc:title>
+        <dc:title xml:lang="en">LPTO</dc:title>
         <terms:abstract xml:lang="en">As the number of RDF datasets published on the semantic web continues to grow,
 		it becomes increasingly important to efficiently link similar entities between these datasets. However,
 		the performance of existing data linking tools, often developed for general purposes, seems to have reached a plateau,
@@ -32,9 +32,9 @@
         <terms:created xml:lang="en">January 25th, 2024</terms:created>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <bibo:doi rdf:resource="https://doi.org/10.57745/OQ323Z"/>
-        <bibo:status rdf:resource="http://purl.org/ontology/bibo/status/stable"/>
+        <bibo:status rdf:resource="http://purl.org/ontology/bibo/status/draft"/>
         <vann:preferredNamespacePrefix xml:lang="en">lpto</vann:preferredNamespacePrefix>
-        <vann:preferredNamespaceUri>https://w3id.org/lpto#</vann:preferredNamespaceUri>
+        <vann:preferredNamespaceUri>https://w3id.org/lpto</vann:preferredNamespaceUri>
         <rdfs:comment xml:lang="en">An ontology designed to illustrate the types of linking problems (LPTs) to help the data linking community.</rdfs:comment>
         <rdfs:label>Ontology of LPTs</rdfs:label>
         <owl:versionInfo>1.0.0</owl:versionInfo>
