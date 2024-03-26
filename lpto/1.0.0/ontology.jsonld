@@ -768,7 +768,7 @@
   } ],
   "http://purl.org/dc/elements/1.1/title" : [ {
     "@language" : "en",
-    "@value" : "LPTO"
+    "@value" : "Ontology of LPTs"
   } ],
   "http://purl.org/dc/terms/abstract" : [ {
     "@language" : "en",
@@ -785,14 +785,14 @@
     "@id" : "https://doi.org/10.57745/OQ323Z"
   } ],
   "http://purl.org/ontology/bibo/status" : [ {
-    "@id" : "http://purl.org/ontology/bibo/status/draft"
+    "@id" : "http://purl.org/ontology/bibo/status/stable"
   } ],
   "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
     "@language" : "en",
     "@value" : "lpto"
   } ],
   "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
-    "@value" : "https://w3id.org/lpto"
+    "@value" : "https://w3id.org/lpto#"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",

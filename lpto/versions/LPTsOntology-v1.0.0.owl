@@ -2,98 +2,108 @@
 <rdf:RDF xmlns="https://w3id.org/lpto#"
      xml:base="https://w3id.org/lpto"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:org="http://www.w3.org/ns/org#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:bibo="http://purl.org/ontology/bibo/"
      xmlns:dcat="http://www.w3.org/ns/dcat#/"
-     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:voaf="http://purl.org/vocommons/voaf#"
-     xmlns:terms="http://purl.org/dc/terms/"
-     xmlns:vocab="https://w3id.org/widoco/vocab#"
-     xmlns:schema="https://schema.org/">
+     xmlns:schema="https://schema.org/"
+     xmlns:widoco="https://w3id.org/widoco/vocab#"
+	 xmlns:org="http://www.w3.org/ns/org#">
+	 
     <owl:Ontology rdf:about="https://w3id.org/lpto">
-        <owl:versionIRI rdf:resource="https://w3id.org/lpto/1.0.0"/>
-        <owl:imports rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
-        <dc:description xml:lang="en">Ontology of LPT classification</dc:description>
-        <dc:title xml:lang="en">LPTO</dc:title>
-        <terms:abstract xml:lang="en">As the number of RDF datasets published on the semantic web continues to grow,
+	    <bibo:doi rdf:resource="https://doi.org/10.57745/OQ323Z" />
+		<!-- <owl:backwardCompatibleWith rdf:resource="https://w3id.org/example/1.0.0"/>
+        <owl:priorVersion rdf:resource="https://w3id.org/example/1.0.0"/> -->
+        <owl:versionInfo>1.0.0</owl:versionInfo>
+		<owl:versionIRI rdf:resource="https://w3id.org/lpto/1.0.0"/>
+		<vann:preferredNamespacePrefix xml:lang="en">lpto</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>https://w3id.org/lpto</vann:preferredNamespaceUri>
+        <dcterms:created xml:lang="en">January 25th, 2024</dcterms:created>
+		<!-- <dcterms:creator xml:lang="en">Raphael Conde Salazar</dcterms:creator> -->
+		<dc:title xml:lang="en">LPTO</dc:title>
+		<dc:description xml:lang="en">Ontology of LPT classification</dc:description>
+        <rdfs:label>Ontology of LPTs</rdfs:label>
+		<schema:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://schema.org/Person"/>
+                <schema:familyName xml:lang="en">Conde Salazar</schema:familyName>
+                <schema:familyName xml:lang="fr">Conde Salazar</schema:familyName>
+                <schema:name xml:lang="en">Raphael Conde Salazar</schema:name>
+                <schema:name xml:lang="fr">Raphaël Conde Salazar</schema:name>
+                <schema:url rdf:resource="https://orcid.org/0000-0002-6926-5299"/>
+                <org:memberOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                        <schema:url>https://mistea.montpellier.hub.inrae.fr/</schema:url>
+                        <foaf:name>MISTEA, University of Montpellier, INRAE ; Institut Agro, France</foaf:name>
+                    </rdf:Description>
+                </org:memberOf>
+            </rdf:Description>
+        </schema:creator>
+        <schema:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://schema.org/Person"/>
+                <schema:name xml:lang="en">Clement Jonquet</schema:name>
+                <schema:name xml:lang="fr">Clément Jonquet</schema:name>
+                <schema:url rdf:resource="https://orcid.org/0000-0002-2404-1582"/>
+                <org:memberOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                        <schema:url>https://mistea.montpellier.hub.inrae.fr/</schema:url>
+                        <foaf:name>MISTEA, University of Montpellier, INRAE ; Institut Agro, France</foaf:name>
+                    </rdf:Description>
+                </org:memberOf>
+                <org:memberOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                        <schema:url>https://www.lirmm.fr/</schema:url>
+                        <foaf:name>LIRMM, University of Montpellier ; CNRS, France</foaf:name>
+                    </rdf:Description>
+                </org:memberOf>
+            </rdf:Description>
+        </schema:creator>
+        <schema:creator>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://schema.org/Person"/>
+                <schema:name xml:lang="en">Danai Simeonidou</schema:name>
+                <schema:name xml:lang="fr">Danaï Simeonidou</schema:name>
+                <schema:url rdf:resource="https://orcid.org/0000-0003-1152-5200"/>
+                <org:memberOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+                        <schema:url>https://mistea.montpellier.hub.inrae.fr/</schema:url>
+                        <foaf:name>MISTEA, University of Montpellier, INRAE ; Institut Agro, France</foaf:name>
+                    </rdf:Description>
+                </org:memberOf>
+            </rdf:Description>
+        </schema:creator>
+        <dcterms:abstract xml:lang="en">As the number of RDF datasets published on the semantic web continues to grow,
 		it becomes increasingly important to efficiently link similar entities between these datasets. However,
 		the performance of existing data linking tools, often developed for general purposes, seems to have reached a plateau,
 		suggesting the need for more modular and efficient solutions. We propose-and formalize in OWL-a classification of the different Linking Problem Types (LPTs) to help
 		the linked data community identify upstream the problems and develop more efficient solutions.
 		By classifying LPTs, we provide a framework for understanding and addressing the challenges associated with semantic data linking.
-		It can be used to develop new solutions based on existing modularized tools addressing specific LPTs, thus improving the overall efficiency of data linking.</terms:abstract>
-        <terms:created xml:lang="en">January 25th, 2024</terms:created>
-        <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
-        <bibo:doi rdf:resource="https://doi.org/10.57745/OQ323Z"/>
+		It can be used to develop new solutions based on existing modularized tools addressing specific LPTs, thus improving the overall efficiency of data linking.</dcterms:abstract>
+        <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
         <bibo:status rdf:resource="http://purl.org/ontology/bibo/status/draft"/>
-        <vann:preferredNamespacePrefix xml:lang="en">lpto</vann:preferredNamespacePrefix>
-        <vann:preferredNamespaceUri>https://w3id.org/lpto</vann:preferredNamespaceUri>
         <rdfs:comment xml:lang="en">An ontology designed to illustrate the types of linking problems (LPTs) to help the data linking community.</rdfs:comment>
-        <rdfs:label>Ontology of LPTs</rdfs:label>
-        <owl:versionInfo>1.0.0</owl:versionInfo>
         <foaf:fundedBy rdf:resource="https://anr.fr/"/>
         <schema:citation xml:lang="en">Cite this vocabulary as: Raphaël Conde Salazar , Clément Jonquet , Danai Symeonidou; Classification of Linking Problem Types for linking semantic data; DOI: 10.3233/SSW230014</schema:citation>
-        <schema:creator rdf:nodeID="genid1"/>
-        <schema:creator rdf:nodeID="genid3"/>
-        <schema:creator rdf:nodeID="genid6"/>
         <schema:funding rdf:resource="https://anr.fr/Projet-ANR-21-CE23-0019"/>
-        <vocab:introduction xml:lang="en">Our classification is based on the description of heterogeneity reported in the literature and identifies five main types
-		of linking problems: predicate value problems, predicate problems, class problems, subgraph problems, and graph problems.</vocab:introduction>
-        <vocab:rdfxmlSerialization rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://w3id.org/lpto/ontology.xml</vocab:rdfxmlSerialization>
-    </owl:Ontology>
-    <rdf:Description rdf:nodeID="genid1">
-        <rdf:type rdf:resource="http://schema.org/Person"/>
-        <org:memberOf rdf:nodeID="genid2"/>
-        <schema:familyName xml:lang="en">Conde Salazar</schema:familyName>
-        <schema:familyName xml:lang="fr">Conde Salazar</schema:familyName>
-        <schema:name xml:lang="en">Raphael Conde Salazar</schema:name>
-        <schema:name xml:lang="fr">Raphaël Conde Salazar</schema:name>
-        <schema:url rdf:resource="https://orcid.org/0000-0002-6926-5299"/>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid3">
-        <rdf:type rdf:resource="http://schema.org/Person"/>
-        <org:memberOf rdf:nodeID="genid4"/>
-        <org:memberOf rdf:nodeID="genid5"/>
-        <schema:name xml:lang="en">Clement Jonquet</schema:name>
-        <schema:name xml:lang="fr">Clément Jonquet</schema:name>
-        <schema:url rdf:resource="https://orcid.org/0000-0002-2404-1582"/>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid6">
-        <rdf:type rdf:resource="http://schema.org/Person"/>
-        <org:memberOf rdf:nodeID="genid7"/>
-        <schema:name xml:lang="en">Danai Simeonidou</schema:name>
-        <schema:name xml:lang="fr">Danaï Simeonidou</schema:name>
-        <schema:url rdf:resource="https://orcid.org/0000-0003-1152-5200"/>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid2">
-        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
-        <foaf:name>MISTEA, University of Montpellier, INRAE ; Institut Agro, France</foaf:name>
-        <schema:url>https://mistea.montpellier.hub.inrae.fr/</schema:url>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid4">
-        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
-        <foaf:name>MISTEA, University of Montpellier, INRAE ; Institut Agro, France</foaf:name>
-        <schema:url>https://mistea.montpellier.hub.inrae.fr/</schema:url>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid5">
-        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
-        <foaf:name>LIRMM, University of Montpellier ; CNRS, France</foaf:name>
-        <schema:url>https://www.lirmm.fr/</schema:url>
-    </rdf:Description>
-    <rdf:Description rdf:nodeID="genid7">
-        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
-        <foaf:name>MISTEA, University of Montpellier, INRAE ; Institut Agro, France</foaf:name>
-        <schema:url>https://mistea.montpellier.hub.inrae.fr/</schema:url>
-    </rdf:Description>
+        <widoco:introduction xml:lang="en">Our classification is based on the description of heterogeneity reported in the literature and identifies five main types
+		of linking problems: predicate value problems, predicate problems, class problems, subgraph problems, and graph problems.</widoco:introduction>
+        <widoco:rdfxmlSerialization rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://w3id.org/lpto/ontology.xml</widoco:rdfxmlSerialization>
+		<owl:imports rdf:resource="http://www.w3.org/2000/01/rdf-schema"/>
+	</owl:Ontology>
     
-
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -104,18 +114,7 @@
      -->
 
 
-    
-
-
-    <!-- http://purl.org/dc/elements/1.1/creator -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
-    
-
-
-    <!-- http://purl.org/dc/elements/1.1/description -->
-
+	 <!-- http://purl.org/dc/elements/1.1/description -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
     
@@ -123,8 +122,87 @@
 
     <!-- http://purl.org/dc/terms/abstract -->
 
-
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/abstract"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/status -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/status"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- http://purl.org/vocommons/voaf#extends -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocommons/voaf#extends"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/fundedBy -->
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/fundedBy"/>
+    
+
+
+    <!-- https://schema.org/citation -->
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/citation"/>
+    
+
+
+    <!-- https://schema.org/funding -->
+
+    <owl:AnnotationProperty rdf:about="https://schema.org/funding"/>
+    
+
+
+    <!-- https://w3id.org/widoco/vocab#introduction -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/widoco/vocab#introduction"/>
+    
+
+
+    <!-- https://w3id.org/widoco/vocab#rdfxmlSerialization -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/widoco/vocab#rdfxmlSerialization"/>
+	
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
     
 
 
@@ -133,19 +211,6 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/bibliographicCitation"/>
     
-
-
-    <!-- http://purl.org/dc/terms/created -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
-    
-
-
-    <!-- http://purl.org/dc/terms/creator -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
     
 
 
@@ -177,13 +242,6 @@
     
 
 
-    <!-- http://purl.org/dc/terms/license -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
-    
-
-
     <!-- http://purl.org/dc/terms/modified -->
 
 
@@ -209,41 +267,6 @@
 
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
-    
-
-
-    <!-- http://purl.org/ontology/bibo/doi -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/doi"/>
-    
-
-
-    <!-- http://purl.org/ontology/bibo/status -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/status"/>
-    
-
-
-    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
-    
-
-
-    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
-    
-
-
-    <!-- http://purl.org/vocommons/voaf#extends -->
-
-
-    <owl:AnnotationProperty rdf:about="http://purl.org/vocommons/voaf#extends"/>
     
 
 
@@ -321,83 +344,6 @@
 
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/dcat#/mediaType"/>
-    
-
-
-    <!-- http://www.w3.org/ns/org#memberOf -->
-
-
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/ns/org#memberOf"/>
-    
-
-
-    <!-- http://xmlns.com/foaf/0.1/fundedBy -->
-
-
-    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/fundedBy"/>
-    
-
-
-    <!-- http://xmlns.com/foaf/0.1/name -->
-
-
-    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
-    
-
-
-    <!-- https://schema.org/citation -->
-
-
-    <owl:AnnotationProperty rdf:about="https://schema.org/citation"/>
-    
-
-
-    <!-- https://schema.org/creator -->
-
-
-    <owl:AnnotationProperty rdf:about="https://schema.org/creator"/>
-    
-
-
-    <!-- https://schema.org/familyName -->
-
-
-    <owl:AnnotationProperty rdf:about="https://schema.org/familyName"/>
-    
-
-
-    <!-- https://schema.org/funding -->
-
-
-    <owl:AnnotationProperty rdf:about="https://schema.org/funding"/>
-    
-
-
-    <!-- https://schema.org/name -->
-
-
-    <owl:AnnotationProperty rdf:about="https://schema.org/name"/>
-    
-
-
-    <!-- https://schema.org/url -->
-
-
-    <owl:AnnotationProperty rdf:about="https://schema.org/url"/>
-    
-
-
-    <!-- https://w3id.org/widoco/vocab#introduction -->
-
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/widoco/vocab#introduction"/>
-    
-
-
-    <!-- https://w3id.org/widoco/vocab#rdfxmlSerialization -->
-
-
-    <owl:AnnotationProperty rdf:about="https://w3id.org/widoco/vocab#rdfxmlSerialization"/>
     
 
 
@@ -486,13 +432,6 @@
     
 
 
-    <!-- http://schema.org/Person -->
-
-
-    <owl:Class rdf:about="http://schema.org/Person"/>
-    
-
-
     <!-- http://www.w3.org/2004/02/skos/core#Concept -->
 
 
@@ -523,13 +462,6 @@
 
 
     <owl:Class rdf:about="http://www.w3.org/ns/prov#Entity"/>
-    
-
-
-    <!-- http://xmlns.com/foaf/0.1/Organization -->
-
-
-    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Organization"/>
     
 
 
@@ -587,7 +519,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT"/>
-        <rdfs:label>LPT1</rdfs:label>
     </owl:Class>
     
 
@@ -603,7 +534,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT1"/>
-        <rdfs:label>LPT1_1</rdfs:label>
     </owl:Class>
     
 
@@ -619,7 +549,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT1_1"/>
-        <rdfs:label>LPT1_1_1</rdfs:label>
     </owl:Class>
     
 
@@ -635,7 +564,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT1_1_1"/>
-        <rdfs:label>LPT1_1_1_1</rdfs:label>
     </owl:Class>
     
 
@@ -651,7 +579,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT1_1_1"/>
-        <rdfs:label>LPT1_1_1_2</rdfs:label>
     </owl:Class>
     
 
@@ -667,7 +594,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT1_1"/>
-        <rdfs:label>LPT1_1_2</rdfs:label>
     </owl:Class>
     
 
@@ -683,7 +609,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT1_1_2"/>
-        <rdfs:label>LPT1_1_2_1</rdfs:label>
     </owl:Class>
     
 
@@ -699,7 +624,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT1_1_2"/>
-        <rdfs:label>LPT1_1_2_2</rdfs:label>
     </owl:Class>
     
 
@@ -715,7 +639,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT1_1_2"/>
-        <rdfs:label>LPT1_1_2_3</rdfs:label>
     </owl:Class>
     
 
@@ -731,7 +654,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT1_1_2"/>
-        <rdfs:label>LPT1_1_2_4</rdfs:label>
     </owl:Class>
     
 
@@ -747,7 +669,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT1_1_2"/>
-        <rdfs:label>LPT1_1_2_5</rdfs:label>
     </owl:Class>
     
 
@@ -763,7 +684,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT1_1"/>
-        <rdfs:label>LPT1_1_3</rdfs:label>
     </owl:Class>
     
 
@@ -779,7 +699,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT1"/>
-        <rdfs:label>LPT1_2</rdfs:label>
     </owl:Class>
     
 
@@ -795,7 +714,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT1_2"/>
-        <rdfs:label>LPT1_2_1</rdfs:label>
     </owl:Class>
     
 
@@ -811,7 +729,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT1_2"/>
-        <rdfs:label>LPT1_2_2</rdfs:label>
     </owl:Class>
     
 
@@ -827,7 +744,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT"/>
-        <rdfs:label>LPT2</rdfs:label>
     </owl:Class>
     
 
@@ -843,7 +759,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT2"/>
-        <rdfs:label>LPT2_1</rdfs:label>
     </owl:Class>
     
 
@@ -859,7 +774,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT2_1"/>
-        <rdfs:label>LPT2_1_1</rdfs:label>
     </owl:Class>
     
 
@@ -875,7 +789,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT2_1"/>
-        <rdfs:label>LPT2_1_2</rdfs:label>
     </owl:Class>
     
 
@@ -891,7 +804,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT2_1"/>
-        <rdfs:label>LPT2_1_3</rdfs:label>
     </owl:Class>
     
 
@@ -907,7 +819,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT2_1"/>
-        <rdfs:label>LPT2_1_4</rdfs:label>
     </owl:Class>
     
 
@@ -923,7 +834,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT2_1"/>
-        <rdfs:label>LPT2_1_5</rdfs:label>
     </owl:Class>
     
 
@@ -939,7 +849,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT2"/>
-        <rdfs:label>LPT2_2</rdfs:label>
     </owl:Class>
     
 
@@ -955,7 +864,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT2_2"/>
-        <rdfs:label>LPT2_2_1</rdfs:label>
     </owl:Class>
     
 
@@ -971,7 +879,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT2_2"/>
-        <rdfs:label>LPT2_2_2</rdfs:label>
     </owl:Class>
     
 
@@ -987,7 +894,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT2_2"/>
-        <rdfs:label>LPT2_2_3</rdfs:label>
     </owl:Class>
     
 
@@ -1003,7 +909,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT2_2"/>
-        <rdfs:label>LPT2_2_4</rdfs:label>
     </owl:Class>
     
 
@@ -1019,7 +924,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT2"/>
-        <rdfs:label>LPT2_3</rdfs:label>
     </owl:Class>
     
 
@@ -1035,7 +939,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT"/>
-        <rdfs:label>LPT3</rdfs:label>
     </owl:Class>
     
 
@@ -1051,7 +954,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT3"/>
-        <rdfs:label>LPT3_1</rdfs:label>
     </owl:Class>
     
 
@@ -1067,7 +969,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT3_1"/>
-        <rdfs:label>LPT3_1_1</rdfs:label>
     </owl:Class>
     
 
@@ -1083,7 +984,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT3_1"/>
-        <rdfs:label>LPT3_1_2</rdfs:label>
     </owl:Class>
     
 
@@ -1099,7 +999,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT3_1"/>
-        <rdfs:label>LPT3_1_3</rdfs:label>
     </owl:Class>
     
 
@@ -1115,7 +1014,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT3_1"/>
-        <rdfs:label>LPT3_1_4</rdfs:label>
     </owl:Class>
     
 
@@ -1131,7 +1029,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT3_1"/>
-        <rdfs:label>LPT3_1_5</rdfs:label>
     </owl:Class>
     
 
@@ -1147,7 +1044,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT3"/>
-        <rdfs:label>LPT3_2</rdfs:label>
     </owl:Class>
     
 
@@ -1163,7 +1059,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT"/>
-        <rdfs:label>LPT4</rdfs:label>
     </owl:Class>
     
 
@@ -1179,7 +1074,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT4"/>
-        <rdfs:label>LPT4_1</rdfs:label>
     </owl:Class>
     
 
@@ -1195,7 +1089,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT4"/>
-        <rdfs:label>LPT4_2</rdfs:label>
     </owl:Class>
     
 
@@ -1211,7 +1104,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT"/>
-        <rdfs:label>LPT5</rdfs:label>
     </owl:Class>
     
 
@@ -1227,7 +1119,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT5"/>
-        <rdfs:label>LPT5_1</rdfs:label>
     </owl:Class>
     
 
@@ -1243,7 +1134,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT5"/>
-        <rdfs:label>LPT5_2</rdfs:label>
     </owl:Class>
     
 
@@ -1259,7 +1149,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT5"/>
-        <rdfs:label>LPT5_3</rdfs:label>
     </owl:Class>
     
 
@@ -1275,7 +1164,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT5"/>
-        <rdfs:label>LPT5_4</rdfs:label>
     </owl:Class>
     
 
@@ -1291,7 +1179,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT5_4"/>
-        <rdfs:label>LPT5_4_1</rdfs:label>
     </owl:Class>
     
 
@@ -1307,7 +1194,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT5_4"/>
-        <rdfs:label>LPT5_4_2</rdfs:label>
     </owl:Class>
     
 
@@ -1323,7 +1209,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT5_4"/>
-        <rdfs:label>LPT5_4_3</rdfs:label>
     </owl:Class>
     
 
@@ -1339,7 +1224,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT5_4"/>
-        <rdfs:label>LPT5_4_4</rdfs:label>
     </owl:Class>
     
 
@@ -1355,7 +1239,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT5_4"/>
-        <rdfs:label>LPT5_4_5</rdfs:label>
     </owl:Class>
     
 
@@ -1371,7 +1254,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT5_4"/>
-        <rdfs:label>LPT5_4_6</rdfs:label>
     </owl:Class>
     
 
@@ -1387,7 +1269,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT5"/>
-        <rdfs:label>LPT5_5</rdfs:label>
     </owl:Class>
     
 
@@ -1403,7 +1284,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT5"/>
-        <rdfs:label>LPT5_6</rdfs:label>
     </owl:Class>
     
 
@@ -1419,7 +1299,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT5"/>
-        <rdfs:label>LPT5_7</rdfs:label>
     </owl:Class>
     
 
@@ -1435,7 +1314,6 @@
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="https://w3id.org/lpto#LPT5"/>
-        <rdfs:label>LPT5_8</rdfs:label>
     </owl:Class>
     
 
@@ -1998,10 +1876,180 @@
         <rdf:type rdf:resource="https://w3id.org/lpto#LPT"/>
         <skos:notation>5_8</skos:notation>
     </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT1">
+        <rdfs:label>LPT1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT1_1">
+        <rdfs:label>LPT1_1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT1_1_1">
+        <rdfs:label>LPT1_1_1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT1_1_1_1">
+        <rdfs:label>LPT1_1_1_1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT1_1_1_2">
+        <rdfs:label>LPT1_1_1_2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT1_1_2">
+        <rdfs:label>LPT1_1_2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT1_1_2_1">
+        <rdfs:label>LPT1_1_2_1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT1_1_2_2">
+        <rdfs:label>LPT1_1_2_2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT1_1_2_3">
+        <rdfs:label>LPT1_1_2_3</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT1_1_2_4">
+        <rdfs:label>LPT1_1_2_4</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT1_1_2_5">
+        <rdfs:label>LPT1_1_2_5</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT1_1_3">
+        <rdfs:label>LPT1_1_3</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT1_2">
+        <rdfs:label>LPT1_2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT1_2_1">
+        <rdfs:label>LPT1_2_1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT1_2_2">
+        <rdfs:label>LPT1_2_2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT2">
+        <rdfs:label>LPT2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT2_1">
+        <rdfs:label>LPT2_1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT2_1_1">
+        <rdfs:label>LPT2_1_1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT2_1_2">
+        <rdfs:label>LPT2_1_2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT2_1_3">
+        <rdfs:label>LPT2_1_3</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT2_1_4">
+        <rdfs:label>LPT2_1_4</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT2_1_5">
+        <rdfs:label>LPT2_1_5</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT2_2">
+        <rdfs:label>LPT2_2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT2_2_1">
+        <rdfs:label>LPT2_2_1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT2_2_2">
+        <rdfs:label>LPT2_2_2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT2_2_3">
+        <rdfs:label>LPT2_2_3</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT2_2_4">
+        <rdfs:label>LPT2_2_4</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT2_3">
+        <rdfs:label>LPT2_3</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT3">
+        <rdfs:label>LPT3</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT3_1">
+        <rdfs:label>LPT3_1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT3_1_1">
+        <rdfs:label>LPT3_1_1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT3_1_2">
+        <rdfs:label>LPT3_1_2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT3_1_3">
+        <rdfs:label>LPT3_1_3</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT3_1_4">
+        <rdfs:label>LPT3_1_4</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT3_1_5">
+        <rdfs:label>LPT3_1_5</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT3_2">
+        <rdfs:label>LPT3_2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT4">
+        <rdfs:label>LPT4</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT4_1">
+        <rdfs:label>LPT4_1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT4_2">
+        <rdfs:label>LPT4_2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT5">
+        <rdfs:label>LPT5</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT5_1">
+        <rdfs:label>LPT5_1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT5_2">
+        <rdfs:label>LPT5_2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT5_3">
+        <rdfs:label>LPT5_3</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT5_4">
+        <rdfs:label>LPT5_4</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT5_4_1">
+        <rdfs:label>LPT5_4_1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT5_4_2">
+        <rdfs:label>LPT5_4_2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT5_4_3">
+        <rdfs:label>LPT5_4_3</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT5_4_4">
+        <rdfs:label>LPT5_4_4</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT5_4_5">
+        <rdfs:label>LPT5_4_5</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT5_4_6">
+        <rdfs:label>LPT5_4_6</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT5_5">
+        <rdfs:label>LPT5_5</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT5_6">
+        <rdfs:label>LPT5_6</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT5_7">
+        <rdfs:label>LPT5_7</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://w3id.org/lpto#LPT5_8">
+        <rdfs:label>LPT5_8</rdfs:label>
+    </rdf:Description>
 </rdf:RDF>
-
-
-
-<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
 
 
