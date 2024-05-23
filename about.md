@@ -24,11 +24,6 @@ title: About DACE-DL Project
     <font size="2pt">
     [1] Venkatesan, A., (...), Jonquet, C. et al. Agronomic Linked Data (AgroLD): A knowledge-based system to enable integrative biology in agronomy. PloS one, 2018.<br>
     [2] Michel, F, (...), Winckler, M.: Covid-on-the-Web: Knowl. Graph and Services to Advance COVID-19 Research. ISWC, 2020.
-    </font>
-    </p>
-    
-    <p>
-    <font size="2pt">
     [3] Todorov, K. (2019). Datasets First! A Bottom-up Data Linking Paradigm. In ISWC (Satellites) (pp. 338-342).<br>
     [4] Ben Ellefi, M., Bellahsene, Z., Breslin, J. G., Demidova, E., Dietze, S., Szymański, J., & Todorov, K. (2018). RDF dataset profiling–a survey of features, methods, vocabularies and applications. Semantic Web, 9(5), 677-705.<br>
     [5] Achichi, M., Bellahsene, Z., Ellefi, M. B., & Todorov, K. (2019). Linking and disambiguating entities across heterogeneous RDF graphs. Journal of Web Semantics, 55, 108-121.
