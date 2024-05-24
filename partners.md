@@ -24,7 +24,7 @@ title: Partners
                 <img src="/assets/img/Logo-INRAE_Transparent.png" width="20%" alt=""> 
             </figure>
             MISTEA-INRAE – Mathématiques, Informatique et Statistique pour l'Environnement et l'Agronomie: INRAE is the French National Research Institute for Agriculture, Food and Environment. MISTEA activities concern the development of mathematical, statistical and computer science methods dedicated to analysis and decision support for agronomy and environment. The lab knowledge engineering expertise has been acknowledged by the recent participation in several H2020 projects such as EPPN, AGINFRA+, Big Data Grapes or the national/european research infrastructure for phenotyping PHENOME/EMPHASIS. The lab is also involved in the development of recognized platforms such as OpenSILEX/PHIS (phenomics data management) and AgroPortal (agri-food ontologies).
-	      <br><strong>Researchers:</strong> Clement Jonquet, Danai Symeonidou, Bill Gates HAPPI HAPPI, Raphaël CONDE Salazar</li>
+	      <br><strong>Researchers:</strong> Clement Jonquet, Danai Symeonidou, Bill Gates Happi Happi, Raphaël Conde Salazar</li>
     </ul>    
 
     <figure>
