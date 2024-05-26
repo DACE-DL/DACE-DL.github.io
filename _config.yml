@@ -20,8 +20,8 @@ navigation:
     url: /index.html
   - title: About
     url: /about
-#  - title: News
-#   url: /news/index.html
+  - title: News
+    url: /news/index.html
   - title: Partners
     url: /partners
   - title: Contact
