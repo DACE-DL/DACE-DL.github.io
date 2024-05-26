@@ -4,7 +4,7 @@ title: Results
 ---
 
 <div class="post">
-	<h1 class="pageTitle">Results</h1>
+	<h1 class="pageTitle">Publications and Deliverables</h1>
 	<h2 class="intro">Our project publications</h2>
 	<p> See all <a href="https://hal.science/search/index/?qa%5BanrProject_t%5D%5B%5D=DACE-DL" target="_blank">publications produced by the project on HAL</a>.</p>
 	<h2 class="intro">Our project sofware, ontologies and some datasets</h2>
